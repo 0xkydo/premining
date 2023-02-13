@@ -11,13 +11,13 @@ import { canonicalize } from 'json-canonicalize'
 
 // Constants
 const txnCountTxt = fs.readFileSync('transactionCount.txt', { encoding: "utf8" });
-const txnCount = parseInt(txnCountTxt,10);
+const txnCount = parseInt(txnCountTxt, 10);
 const command = process.argv[2];
 
 // Current block number
 // Read current block count.
 const blockCountTxt = fs.readFileSync('blockCount.txt', { encoding: "utf8" });
-var lastBlockHeight = parseInt(blockCountTxt,10);
+var lastBlockHeight = parseInt(blockCountTxt, 10);
 
 
 
@@ -25,7 +25,7 @@ var lastBlockHeight = parseInt(blockCountTxt,10);
 // Store block object to a specific height number.
 function storeBlock(block: any, height: number) {
   fs.writeFileSync(`./src/blocks/${height}.txt`, canonicalize(block), { encoding: 'utf8' });
-  fs.writeFileSync('blockCount.txt', height.toString(), {encoding:'utf8'});
+  fs.writeFileSync('blockCount.txt', height.toString(), { encoding: 'utf8' });
 };
 
 function loadStartingBlock(): any {
@@ -79,7 +79,8 @@ var previd = hash(canonicalize(prevBlock));
 
 currentBlock.previd = previd;
 
-const fileName = command === '-mine' ? 'mine' : command === '-test' ? 'test' : 'unknown';
+const fileName = command.slice(1);
+
 const filePath = `./a_${fileName}.out`;
 
 

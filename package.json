@@ -6,7 +6,11 @@
   "scripts": {
     "txn": "ts-node src/create_transactions.ts",
     "test": "ts-node src/mine.ts -test",
-    "mine": "ts-node src/mine.ts -mine",
+    "mine1": "ts-node src/mine.ts -mine1",
+    "mine2": "ts-node src/mine.ts -mine2",
+    "mine3": "ts-node src/mine.ts -mine3",
+    "mine4": "ts-node src/mine.ts -mine4",
+    "mine8": "ts-node src/mine.ts -mine8",
     "genesis": "ts-node genesis.ts"
   },
   "keywords": [],
