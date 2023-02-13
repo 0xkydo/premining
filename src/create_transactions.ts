@@ -9,7 +9,7 @@ import { sha512 } from '@noble/hashes/sha512';
 ed.utils.sha512Sync = (...m) => sha512(ed.utils.concatBytes(...m));
 const { getPublicKey} = ed.sync;
 
-const ADDITIONAL_TXN = 2000;
+const ADDITIONAL_TXN = 4000;
 
 // Generate SK and store it locally in plain text.
 // const newPrivKey = ed.utils.randomPrivateKey();

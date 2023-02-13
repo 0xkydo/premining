@@ -147,7 +147,7 @@ async function run() {
     let endTime = new Date().getTime();
     let elapsedTime = endTime - startTime;
     console.log("Elapsed time: " + elapsedTime + "ms");
-    console.log(`Average block production rate: ${elapsedTime / counter / 100}s/block`)
+    console.log(`Average block production rate: ${elapsedTime / counter / 1000}s/block`)
 
 
   }
@@ -159,7 +159,7 @@ async function run() {
   console.log("********************************************");
   console.log("**************** Completed *****************");
   console.log("Elapsed time: " + elapsedTime + "ms");
-  console.log(`Average block production rate: ${elapsedTime / txnCount / 100}s/block`)
+  console.log(`Average block production rate: ${elapsedTime / txnCount / 1000}s/block`)
   console.log("********************************************");
   console.log("********************************************");
 
