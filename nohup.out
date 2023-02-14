@@ -1,0 +1,336 @@
+
+> premining@1.0.0 mine1 /home/ubuntu/mining/premining
+> ts-node src/mine.ts -mine1
+
+transaction count: 6000number
+blockCountTxt : 1946number
+HASH FOUND
+Block at Height 1947 Mined
+Hash value: 00000000906c60ea57afb4751aa2e4a104a6826b203593eff1db4ed5d8b20a82
+Nonce: 76be7d9716e8f8f13ddd99a9a0fce67454131fed70679e42a9149fc5b4c8f64a
+Elapsed time: 24101ms
+Average block production rate: 24.101s/block
+HASH FOUND
+Block at Height 1948 Mined
+Hash value: 00000000929a0e29cf22021364383f7edd7c6b43de7dfc5aa7d9535a6f8050fd
+Nonce: ef3bd784601f4a408b04d6aaeab629053830e97cc040efa4d9fba07f83f7c0e7
+Elapsed time: 28176ms
+Average block production rate: 14.088s/block
+HASH FOUND
+Block at Height 1949 Mined
+Hash value: 000000007d2afafbdcd8100ce53da29c7b2e6b08fa73845fef7c2e1db196cb92
+Nonce: 0fc96192c0d55ab24515cec899047e33389ebf5049b8d77b5397001b4dc52c03
+Elapsed time: 29821ms
+Average block production rate: 9.940333333333333s/block
+HASH FOUND
+Block at Height 1950 Mined
+Hash value: 0000000013537d34e976546b01255b96114b2b37289bc2ed0cb2cd7a8412b937
+Nonce: 6ef97756be3c4080c1740f2d121c12c21670c6e5cb7507bc3053a5449c0876a7
+Elapsed time: 37737ms
+Average block production rate: 9.43425s/block
+HASH FOUND
+Block at Height 1951 Mined
+Hash value: 000000007db5c77268447350b249c268e28efd44c42341d96346aedbc551f3e0
+Nonce: 3707ba7dd2e4298ff5ff2f75c1b53c5708e9bff95f906dd49f55f4d6561d7071
+Elapsed time: 47362ms
+Average block production rate: 9.4724s/block
+HASH FOUND
+Block at Height 1952 Mined
+Hash value: 0000000045cd77930735e7739cc22c90437381125c2843d0248742720a1442dd
+Nonce: ce12582888425bbbcdfc5bb89c31f25b4b3035eeab51ed77551ef04cbe25c7b1
+Elapsed time: 116138ms
+Average block production rate: 19.356333333333332s/block
+HASH FOUND
+Block at Height 1953 Mined
+Hash value: 000000001eb705cefdb4c6d961a741657458d538c2b51223eaebd31bbf408ea8
+Nonce: e72fb97252190985589a94b5c1978c9dff5dc0ffd79b326443ed7636233841e1
+Elapsed time: 184240ms
+Average block production rate: 26.32s/block
+HASH FOUND
+Block at Height 1954 Mined
+Hash value: 00000000a19dd0588cb9a834deee18d9e2e246d56f24bcca4b3ce1d6a9fb203a
+Nonce: 19430e8397619188a4ca10521b450572cdc65b9f33a2539d8b98c1ac8d1b992a
+Elapsed time: 194565ms
+Average block production rate: 24.320625s/block
+HASH FOUND
+Block at Height 1955 Mined
+Hash value: 0000000006b72f2ad09726b39a13f819c52f5225d8cb0722ff8e85df96e3b58a
+Nonce: af4b85b9581d88ac2599b0f70a750b7527a37f70c29a182967adf588cf83f37f
+Elapsed time: 234513ms
+Average block production rate: 26.057s/block
+HASH FOUND
+Block at Height 1956 Mined
+Hash value: 0000000070c88d0b905611cf041fb277d9dbd4f41cbe91c5f4969d25e8c40638
+Nonce: f697e314128d22df9e3ab18b4f9640f871f70142c719a48b58eedb2a9b6082fc
+Elapsed time: 404299ms
+Average block production rate: 40.4299s/block
+HASH FOUND
+Block at Height 1957 Mined
+Hash value: 000000004b36304b118686765f880db2644a9fe4de57ed37e3f07c52fc1a4fc0
+Nonce: 1eb59a6aac5fea446d8d12996d430a0400534d97d2cd208d42b522b5434d70e2
+Elapsed time: 419758ms
+Average block production rate: 38.15981818181818s/block
+HASH FOUND
+Block at Height 1958 Mined
+Hash value: 000000001af1c820f328557dee9fad60564a6c2a7fbffd1fe97fd5112fcdc489
+Nonce: 359ecb032288964d5c3e17bed78f0b8322e22db3831baefd78757af758eb5c4b
+Elapsed time: 467918ms
+Average block production rate: 38.99316666666667s/block
+HASH FOUND
+Block at Height 1959 Mined
+Hash value: 00000000aaf3378d1b44aa496651ebed5083cd465334b4e9c607d0103e8cd230
+Nonce: 0455d384fe41894ff6f20b9ac71ff776d0a85999858a467796d745ff2f8a18cd
+Elapsed time: 477311ms
+Average block production rate: 36.71623076923077s/block
+HASH FOUND
+Block at Height 1960 Mined
+Hash value: 00000000a2cfbc60b5bbb72e969feee16b09e70d5dac6e9264e82e958c5330de
+Nonce: c79d1df0e4c0741a035a12480dbfa0fbbbe863b9531125233ff84d8cb8df56e4
+Elapsed time: 498300ms
+Average block production rate: 35.59285714285714s/block
+HASH FOUND
+Block at Height 1961 Mined
+Hash value: 000000004b09fcf7568ddf59f0681c77d58dd31d6a4ebcc59d8f2bd65e39253d
+Nonce: c99f3d2cbb569fa1ca108fcfeaedf425ca3643593cd36d6ca6df88480ee72965
+Elapsed time: 499717ms
+Average block production rate: 33.31446666666667s/block
+HASH FOUND
+Block at Height 1962 Mined
+Hash value: 0000000004ba919b2a3667ff9e9e21d3feaea4fe804d82bd750448777d3975ab
+Nonce: 3391d128b869f994f8579dec6db0f2ae797d0f0eaeb35f5a85e0c8dc2d77b577
+Elapsed time: 511498ms
+Average block production rate: 31.968625s/block
+HASH FOUND
+Block at Height 1963 Mined
+Hash value: 000000008e2f5003a911e889515405aaaf31630b3dbae66333a85ce0ef16e1ad
+Nonce: 5414fe4e80e73dbe9dad3a953c2b965b59eb9d417693974ac82c8ae4c6e79d15
+Elapsed time: 661186ms
+Average block production rate: 38.89329411764706s/block
+HASH FOUND
+Block at Height 1964 Mined
+Hash value: 000000001649e59d41e73ff22479a2cb29e8033445de0ba44eefe9cec8c6c4d9
+Nonce: 8e96fbd2a2cc1d8004ba6265bfaf7ddd04e233353cfd1161b8378f690a0bf942
+Elapsed time: 661700ms
+Average block production rate: 36.76111111111111s/block
+HASH FOUND
+Block at Height 1965 Mined
+Hash value: 00000000aacabf7e527027f04b762ed07296d371d130143783200227becf91c1
+Nonce: fcdf9af4717843de0bacb248ae3d215f28eb985e3b000eda882ae988d8d16474
+Elapsed time: 711293ms
+Average block production rate: 37.436473684210526s/block
+HASH FOUND
+Block at Height 1966 Mined
+Hash value: 000000002740263ef9b71a70b2d34a1aaf984eb119f61e6cc5778e07aee8e9b8
+Nonce: 49021e9bccea24f5e3a8c302a27d5bf93874feb88717e68272b773a7b15539ca
+Elapsed time: 719303ms
+Average block production rate: 35.96515s/block
+HASH FOUND
+Block at Height 1967 Mined
+Hash value: 000000000c3e091d3e704f27f1d80ee3d98fe21c773d5adcb795b8b31a7aa72f
+Nonce: 29e0d6a4d9539e08211b71d004cc35bf215d9f1d75752a8fa54fc7577a9c731a
+Elapsed time: 720991ms
+Average block production rate: 34.332904761904764s/block
+HASH FOUND
+Block at Height 1968 Mined
+Hash value: 000000007f8369edff37a513579ad20966bbb0ae05f5945a034ebf71e82fb707
+Nonce: b806ebe0b915ebeddef97c2c90ac355fc5c17f3d3e01763e1a0115124aafa81d
+Elapsed time: 750696ms
+Average block production rate: 34.12254545454545s/block
+HASH FOUND
+Block at Height 1969 Mined
+Hash value: 0000000085063a393c4b52bbd1216c7f46fc9c3d52b7066640bd864757215470
+Nonce: 82ce3524bcead1fc10fb22df5c6d6246b4119ed50d65a10841cb1d064398ca09
+Elapsed time: 762575ms
+Average block production rate: 33.155434782608694s/block
+HASH FOUND
+Block at Height 1970 Mined
+Hash value: 00000000290edb85126bb7fc5f894d1b8c10f280bab1890a218f38f88050ee30
+Nonce: 1958c5c10b8a7a15d3c65e6a95f54d053472fff3ecaf57a3b6f6331128ac7f73
+Elapsed time: 885407ms
+Average block production rate: 36.891958333333335s/block
+HASH FOUND
+Block at Height 1971 Mined
+Hash value: 00000000655620e020e5e8674a7eb8ac70631f0b744c6d4bd836330f8550ec8b
+Nonce: a32b505860a439efabbb3d590bd0634a808f8c39217fe0e201138e436862abe5
+Elapsed time: 909247ms
+Average block production rate: 36.369879999999995s/block
+HASH FOUND
+Block at Height 1972 Mined
+Hash value: 0000000096f8c618af49425d12ea83006131e0eed38e19b42c458559cb8296d7
+Nonce: f21dacf34043e02da3ac29bb535bc636e3064314ee56798b58f650a218919a01
+Elapsed time: 930624ms
+Average block production rate: 35.79323076923077s/block
+HASH FOUND
+Block at Height 1973 Mined
+Hash value: 00000000040328a538e24990d1737390085677db26c6f24c70a826fe0a38a3d7
+Nonce: f3d51e62e585c71ef2c6d434aaf2679dd532c0a95dc2513a7062c4dcb875d451
+Elapsed time: 986685ms
+Average block production rate: 36.543888888888894s/block
+HASH FOUND
+Block at Height 1974 Mined
+Hash value: 0000000035c232dbc12091ebdb68263aa05752106c85a81f590e9651b688bf8d
+Nonce: 132ad910faf8efbc8033248ed68b88a38a11ff854df4c4b95076f133aafe7076
+Elapsed time: 995593ms
+Average block production rate: 35.556892857142856s/block
+HASH FOUND
+Block at Height 1975 Mined
+Hash value: 0000000060ca0b67c4c9c52b3dbbd0bfee3bdece758a4f8564c3d4f80cf74aab
+Nonce: f46803456515067c0278028be9d5f052921e50b832098326de55bfa6992a21e2
+Elapsed time: 1011591ms
+Average block production rate: 34.882448275862075s/block
+HASH FOUND
+Block at Height 1976 Mined
+Hash value: 00000000a7bba136037fbd04b8619847e8f1414b766831488a39bdba5300b39a
+Nonce: f96946195b4982cda19857f923d103cecba60201df8da972b35bf8e22f80f039
+Elapsed time: 1032716ms
+Average block production rate: 34.42386666666667s/block
+HASH FOUND
+Block at Height 1977 Mined
+Hash value: 000000001879b9d3e35d1b3e23a01ed99ef1a89898f21b7a4b11c5af2c61a48f
+Nonce: 90aee45ff5d7c9d2c4fd10155ffc6f6dbe1c8e37a57e788f56371f3ab5dec1d4
+Elapsed time: 1134025ms
+Average block production rate: 36.58145161290323s/block
+HASH FOUND
+Block at Height 1978 Mined
+Hash value: 0000000085bea30b2e9bf6f842d732137ba0cd46c2448cec744e86333ede579e
+Nonce: 4790fce549bda5f3e9357b8f22ec8f5aab178dd47f2c8acb8acd17b79dcdd69d
+Elapsed time: 1179610ms
+Average block production rate: 36.8628125s/block
+HASH FOUND
+Block at Height 1979 Mined
+Hash value: 00000000231c060b1b7be153b0243deeac31042fe6ec976916da7fb82a91c4d8
+Nonce: 3c54f8d1135d0c911a428bbca17f6cf33e19d9d2c46dcc85be73e03a4efed9e3
+Elapsed time: 1204286ms
+Average block production rate: 36.493515151515155s/block
+HASH FOUND
+Block at Height 1980 Mined
+Hash value: 000000000028aef66dbfc40ca8cb6bda111887e538a12f7d0b1b48668b1ada94
+Nonce: f40eae9f2c7d040282d9d59528cd22a331259f2ab303f86443ac2ef05e66e302
+Elapsed time: 1263334ms
+Average block production rate: 37.156882352941174s/block
+HASH FOUND
+Block at Height 1981 Mined
+Hash value: 00000000704118fbb2f1fadff28206c8dd92f44c20e0b10a324351d298af1bb8
+Nonce: a9a363b7932bbc9090641aa9986bdac71fca90203079ab03f5018aad1acd1d9b
+Elapsed time: 1343187ms
+Average block production rate: 38.37677142857143s/block
+HASH FOUND
+Block at Height 1982 Mined
+Hash value: 0000000063f33cb04989201e108267c76a75fe5740e770b98edbf8ef3f21590e
+Nonce: fb9da0e9e37441a6b61d9371dc6098ddcc018259ae8d8d15cf901f3ec6803772
+Elapsed time: 1384007ms
+Average block production rate: 38.44463888888889s/block
+HASH FOUND
+Block at Height 1983 Mined
+Hash value: 000000008360f2a7a062fa1db322c438cbf5abf8469cb32ec750ca7768cad02a
+Nonce: c0b1c31957880e15b2002984ef71ae80ef954c352f3b5771f33de11ec6870752
+Elapsed time: 1436050ms
+Average block production rate: 38.81216216216216s/block
+HASH FOUND
+Block at Height 1984 Mined
+Hash value: 000000009ae841d2e8fa09d464b80c89c0a4550a0d85c09e1d65d9d2ace81300
+Nonce: e3b5e70ad41b4c5594ceb2c15ab11cf0724e302463ddb44f4e073042253acb85
+Elapsed time: 1487818ms
+Average block production rate: 39.15310526315789s/block
+HASH FOUND
+Block at Height 1985 Mined
+Hash value: 0000000098241af1932561aaf9c20745944297e65a12aa81c832cc4c28bae114
+Nonce: b62a7a2e330f01d73f494342a2d684eddd4c2670d7097a84c60bc1dc324f1c3d
+Elapsed time: 1527196ms
+Average block production rate: 39.1588717948718s/block
+HASH FOUND
+Block at Height 1986 Mined
+Hash value: 000000001c2e561ee68529e2257e7d1453c0291ab8f52223521b1a34bbd7256e
+Nonce: 7334ab759d638d73c62a4994cdeabaeb1f0a504d9c087db833a4e70acfa93bc9
+Elapsed time: 1597347ms
+Average block production rate: 39.933675s/block
+HASH FOUND
+Block at Height 1987 Mined
+Hash value: 000000006c13904dd516a6ec9c2a421ab676d1d155792c9c89dc7a611f39e847
+Nonce: 7f5f1a0e5b0fb04a374df36f24aabf2c6a70277423d50d23365f8b630cdae850
+Elapsed time: 1606317ms
+Average block production rate: 39.17846341463415s/block
+HASH FOUND
+Block at Height 1988 Mined
+Hash value: 0000000004905ebc8a61e5a3ee1fe98a026556e6e8a0b80f5c257e09e19ae55d
+Nonce: e3f7905ac6a95407044c87a688f88e5547b3809312e530abbc95c9f855218d09
+Elapsed time: 1662444ms
+Average block production rate: 39.582s/block
+HASH FOUND
+Block at Height 1989 Mined
+Hash value: 000000006b3e724e7f6c50ee9d0497f9a425b8e531a951097de3f1aadc1db1c5
+Nonce: 8de41bdc10a19d330648847ff7e37ac01be54f4624d2854276ca02bb0a05f9be
+Elapsed time: 1681155ms
+Average block production rate: 39.09662790697674s/block
+HASH FOUND
+Block at Height 1990 Mined
+Hash value: 000000003c2cc7aa5b47163fdecd616e57690019c572874bff870b8ebd6e28b8
+Nonce: 8d9c874cf18a69024d1b2125935edcb1048f5dd274e1c25d1217b7be2cfa1b33
+Elapsed time: 1689794ms
+Average block production rate: 38.40440909090909s/block
+HASH FOUND
+Block at Height 1991 Mined
+Hash value: 0000000025809b5c28f245c2f9db5f36c468490c58a801e94da8771c917dc8af
+Nonce: afc78912aa0f622971cf72b227086e9e172883ee184350e0fdabd228f90bb5bf
+Elapsed time: 1815890ms
+Average block production rate: 40.35311111111111s/block
+HASH FOUND
+Block at Height 1992 Mined
+Hash value: 000000005f9e6265de2e9fcf4e7601de1dad3442d29d1d14d1be14ae2510f277
+Nonce: dd5495a6c7649877a2da93b882a8cecf77401cde7e0646f35f2392dba27e6fbd
+Elapsed time: 1831831ms
+Average block production rate: 39.822413043478264s/block
+HASH FOUND
+Block at Height 1993 Mined
+Hash value: 0000000010c9e324e5a31a8a4c691c4b4b34026612130fd3c9fd0a294b4e92e7
+Nonce: 45fa01996717c2779e1d2df2477d5b519e212cf4dd9bb76dd9f6d6be04a38de4
+Elapsed time: 1832392ms
+Average block production rate: 38.98706382978724s/block
+HASH FOUND
+Block at Height 1994 Mined
+Hash value: 000000004ac37fde65c3c7d02a75257c85d4556c24866d1adf091cf5b3242649
+Nonce: b0acd766eefd5c08bb38724a3c8d2650a25e8014ac05320114033a362e89f76b
+Elapsed time: 1835794ms
+Average block production rate: 38.24570833333333s/block
+HASH FOUND
+Block at Height 1995 Mined
+Hash value: 00000000a8a49afee7324269f4456a64ea706b55de084f90f18474f70f90b6ea
+Nonce: 74125d70122e54deb1cc2d04f901b49e37306512dd08aa7613cf1c68ddaa2f90
+Elapsed time: 1845225ms
+Average block production rate: 37.65765306122449s/block
+HASH FOUND
+Block at Height 1996 Mined
+Hash value: 0000000052d993a6ba851955675745712687d744d92379b0a620d4c36f65c2c8
+Nonce: 96f0151b5622cc3732cc63e79294600828b7b6e1011907fd4c275ba4b6bac70f
+Elapsed time: 1891206ms
+Average block production rate: 37.82412s/block
+HASH FOUND
+Block at Height 1997 Mined
+Hash value: 000000007272363f3af0560b379981ff8dc945c208c6033664fb745355df033d
+Nonce: 39eb3f422dd2d7daeeae9c3ec22b94946297084ee139ef40fde3ae2630103c08
+Elapsed time: 1948142ms
+Average block production rate: 38.19886274509804s/block
+HASH FOUND
+Block at Height 1998 Mined
+Hash value: 000000002e85a1731de626b1458beee26f56afd7013bccd7ad4b0eb4cf8da1ef
+Nonce: 2f78b7fa7cc9645307f266eb65eed785a06eefc8c24f522940783bddbdb8c277
+Elapsed time: 2053240ms
+Average block production rate: 39.48538461538462s/block
+HASH FOUND
+Block at Height 1999 Mined
+Hash value: 000000002c713e54cd4d9321e45170bea9b0c9b5671df95975291e84093e2cb8
+Nonce: fc447083f8ba0687031735d57fb64978283952f9761ac102eb26fb5b91cf4e2f
+Elapsed time: 2080220ms
+Average block production rate: 39.24943396226415s/block
+HASH FOUND
+Block at Height 2000 Mined
+Hash value: 000000004887e499645229cacdd3a5420332b606f88e60c0ce60185d4fecad18
+Nonce: 68007ec678eaae3deb491d952a04626a7f07c2ca33f7cf7759dc8ab263607b61
+Elapsed time: 2124785ms
+Average block production rate: 39.34787037037037s/block
+HASH FOUND
+Block at Height 2001 Mined
+Hash value: 000000007e6e700ff2a1dde2090af9ac1b11f468365d88cf2c4946de1acccc4b
+Nonce: eb89c401ce70d221ba4708d12d2a6025bbe428ddfddf3bc70918dfadb3256659
+Elapsed time: 2134226ms
+Average block production rate: 38.804109090909094s/block

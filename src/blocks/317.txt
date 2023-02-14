@@ -1,1 +1,0 @@
-{"T":"00000000abc00000000000000000000000000000000000000000000000000000","created":1671221100,"miner":"Om Nom Nommm It is ALLL MINE","nonce":"c9ee8b630db25c52d3edb9894fe9e94d1ae5baad12e6cafded37d77f6874cc1f","previd":"000000006133b1f8eaf6a5fc0af607292ae13eaf2dccb6fe39f0a4fe51c39efc","txids":["8dabbc4c186cf41e89b915c7e025bb7e900d67bbc4c7ecf9b960e2bfaa660c87"],"type":"block"}

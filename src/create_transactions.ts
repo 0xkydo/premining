@@ -29,7 +29,7 @@ const ADDITIONAL_TXN = 4000;
 // console.log(hexString); // "010203"
 
 
-// Read current transaction count.
+// // Read current transaction count.
 const txnCountTxt = fs.readFileSync('transactionCount.txt', { encoding: "utf8" });
 var txnCount = parseInt(txnCountTxt,10);
 
