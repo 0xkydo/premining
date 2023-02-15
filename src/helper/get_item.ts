@@ -144,11 +144,10 @@ async function longestBlock(){
 
 // getBlock(4)
 
-// getTxn(4)
+// getTxn(100000)
 
 // getBlock(4)
 
-getCounts();
+// getCounts();
 
 // setCounts(1094,6000)
-
