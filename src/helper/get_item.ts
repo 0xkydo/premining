@@ -9,7 +9,9 @@ const dbPathAbs = path.resolve(dbPath);
 const db = new Level(dbPathAbs);
 
 async function getBlock(height: number){
-  console.log(await db.get(`b_${height}`));
+  console.log(`Current Block: \n`+ await db.get(`b_${height}`));
+  console.log(`Current Transaction: \n`+ await db.get(`t_${height}`));
+  console.log(`Last block: \n`+await db.get(`b_${height-1}`));
 }
 
 async function getTxn(height: number){
@@ -142,7 +144,7 @@ async function longestBlock(){
 
 // getTest(1242);
 
-// getBlock(4)
+getBlock(8026)
 
 // getTxn(100000)
 
