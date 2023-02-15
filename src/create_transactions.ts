@@ -11,7 +11,6 @@ const { getPublicKey } = ed.sync;
 import Level from 'level-ts';
 import path from 'path';
 
-
 const TOTALTXN = 100000;
 
 
