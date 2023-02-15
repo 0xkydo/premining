@@ -99,7 +99,6 @@ async function longestBlock(){
   for(i = 0; i<10000; i++){
 
     var prev = blockCount-1;
-
     var prevBlock = await db.get(`b_${prev}`);
     try {
       var currentBlock: string = await db.get(`b_${blockCount}`);
@@ -108,15 +107,16 @@ async function longestBlock(){
 
       if(block.previd != hash(prevBlock)){
 
-        console.log(`Longest at ${blockCount-1}`);
+        console.log(`Longest block at ${blockCount-1}`);
+        await db.put('blockCount',(blockCount-1))
         return;
   
       }
   
       if(block.txids[0] != hash(currentTxn)){
   
-        console.log(`Longest at ${blockCount-1}`);
-  
+        console.log(`Longest block at ${blockCount-1}`);
+        await db.put('blockCount',(blockCount-1))
         return;
   
       }
@@ -124,7 +124,7 @@ async function longestBlock(){
       blockCount++;
 
     } catch (error) {
-      console.log(`Longest at ${blockCount-1}`);
+      console.log(`Longest block at ${blockCount-1}`);
       await db.put('blockCount',(blockCount-1))
       return;
       
@@ -135,8 +135,8 @@ async function longestBlock(){
 }
 
 
-longestBlock()
-checkAllBlocks()
+// longestBlock()
+// checkAllBlocks()
 
 // resetTxn();
 
@@ -148,7 +148,7 @@ checkAllBlocks()
 
 // getBlock(4)
 
-// getCounts();
+getCounts();
 
 // setCounts(1094,6000)
 
