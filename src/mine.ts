@@ -13,8 +13,14 @@ import path from 'path';
 
 const dbPath = "./db";
 const dbPathAbs = path.resolve(dbPath);
-
 const db = new Level(dbPathAbs);
+
+
+const command = process.argv[2];
+const fileName = command.slice(1);
+const filePath = `./a_${fileName}.out`;
+const filePathAbs = path.resolve(filePath);
+
 
 // Constants
 
@@ -26,7 +32,6 @@ const db = new Level(dbPathAbs);
   console.log(`Total blocks : ` + lastBlockHeight);
 
 
-  const command = process.argv[2];
 
 
   // Store block object to a specific height number.
@@ -92,10 +97,6 @@ const db = new Level(dbPathAbs);
 
   currentBlock.previd = previd;
 
-  const fileName = command.slice(1);
-
-  const filePath = `./a_${fileName}.out`;
-
 
   // Testing Cases
   async function run() {
@@ -129,7 +130,7 @@ const db = new Level(dbPathAbs);
       storePrefixSuffix(prefix, true);
       storePrefixSuffix(suffix, false);
 
-      const child = child_process.spawn(filePath);
+      const child = child_process.spawn(filePathAbs);
 
 
       child.stdout.on('data', (data) => {

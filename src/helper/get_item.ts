@@ -13,6 +13,11 @@ async function getBlock(height: number){
   console.log(`Current Transaction: \n`+ await db.get(`t_${height}`));
   console.log(`Last block: \n`+await db.get(`b_${height-1}`));
 }
+async function setCounts(numB: number,numT: number){
+  await db.put(`transactionCount`,numT)
+
+  await db.put(`blockCount`,numB)
+}
 
 async function getTxn(height: number){
   console.log(await db.get(`t_${height}`));
@@ -26,11 +31,7 @@ async function getCounts(){
   console.log(`Block: `+ await db.get(`blockCount`));
 }
 
-async function setCounts(numB: number,numT: number){
-  await db.put(`transactionCount`,numT)
 
-  await db.put(`blockCount`,numB)
-}
 
 async function resetTxn(){
   var sampleCoinbaseTxn ={
@@ -69,7 +70,7 @@ async function checkAllBlocks(){
 
     if(block.previd != hash(prevBlock)){
 
-      console.log(prevBlock);
+      console.log('Failed prev block: \n'+ prevBlock);
 
       console.log(`Failed at ${i}, block`);
       return;
@@ -78,9 +79,7 @@ async function checkAllBlocks(){
 
     if(block.txids[0] != hash(currentTxn)){
 
-      console.log('TXN FROM INSIDE' + currentTxn);
-
-
+      console.log('Failed transaction: \n' + currentTxn);
 
       console.log(`Failed at ${i} , txn`);
       return;
@@ -135,6 +134,8 @@ async function longestBlock(){
   }
 
 }
+
+
 
 
 // longestBlock()
