@@ -138,14 +138,14 @@ async function longestBlock(){
 
 
 
-// longestBlock()
-// checkAllBlocks()
+longestBlock()
+checkAllBlocks()
 
 // resetTxn();
 
 // getTest(1242);
 
-getBlock(8026)
+// getBlock(8026)
 
 // getTxn(100000)
 
