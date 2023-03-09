@@ -185,7 +185,7 @@ async function resetAll(){
 
 // init()
 
-resetAll();
+// resetAll();
 
 // longestBlock()
 // checkAllBlocks()
@@ -203,6 +203,6 @@ resetAll();
 // getBlock(2)
 // getBlock(3)
 
-// getCounts();
+getCounts();
 
 // setCounts(0,4998)
