@@ -38,6 +38,7 @@ async function setCounts(numB: number,numT: number){
 
 async function getTxn(height: number){
   console.log(await db.get(`t_${height}`));
+  console.log(hash(canonicalize(await db.get(`t_${height}`))))
 }
 
 async function getTest(height: number){
@@ -122,40 +123,56 @@ async function checkAllBlocks(){
 
 async function longestBlock(){
 
-  var blockCount = await db.get(`blockCount`);
+  var blockCount = (await db.get(`blockCount`)).value;
   var i =0;
-  for(i = 0; i<10000; i++){
+  for(i = 0; i<blockCount; i++){
 
-    var prev = blockCount-1;
+    var prev = i;
     var prevBlock = await db.get(`b_${prev}`);
     try {
-      var currentBlock: string = await db.get(`b_${blockCount}`);
-      var currentTxn = await db.get(`t_${blockCount}`);
-      var block = JSON.parse(currentBlock);
+      var currentBlock = await db.get(`b_${i+1}`);
+      var currentTxn = await db.get(`t_${i+1}`);
 
-      if(block.previd != hash(prevBlock)){
+      if(currentBlock.previd != hash(canonicalize(prevBlock))){
 
-        console.log(`Longest block at ${blockCount-1}`);
-        await db.put('blockCount',(blockCount-1))
+        console.log(`Longest block at ${i}`);
+        console.log(`Wrong previd`)
+        await db.put('blockCount',({value:i}))
         return;
   
       }
   
-      if(block.txids[0] != hash(currentTxn)){
+      if(currentBlock.txids[0] != hash(currentTxn)){
   
-        console.log(`Longest block at ${blockCount-1}`);
-        await db.put('blockCount',(blockCount-1))
+        console.log(`Longest block at ${i}`);
+        console.log(`Wrong coinbase`)
+        await db.put('blockCount',({value:i}))
         return;
   
       }
-      console.log(block.created)
 
-      if(block.created < prevBlock.created){
+      if(currentTxn.height!=(i+1)){
 
-        console.log(block.created)
+        console.log(`Longest block at ${i}`);
+        console.log(`Wrong coinbase`)
+        await db.put('blockCount',({value:i}))
+        return;
+
+      }
+
+      if(hash(canonicalize(currentBlock))>='00000000abc00000000000000000000000000000000000000000000000000000'){
+        console.log(`Longest block at ${i}`);
+        console.log(`Wrong PoW`)
+        await db.put('blockCount',({value:i}))
+        return;
+      }
+
+      if(currentBlock.created <= prevBlock.created){
+
 
         console.log(`Longest block at ${blockCount-1}`);
-        await db.put('blockCount',(blockCount-1))
+        console.log(`Wrong timestamp`)
+        await db.put('blockCount',({value:i}))
         return;
 
       }
@@ -163,8 +180,8 @@ async function longestBlock(){
       blockCount++;
 
     } catch (error) {
-      console.log(`Longest block at ${blockCount-1}`);
-      await db.put('blockCount',(blockCount-1))
+      console.log(`Longest block at ${i-1}`);
+      await db.put('blockCount',({value:i-1}))
       return;
       
     }
@@ -182,6 +199,29 @@ async function resetAll(){
   await getCounts()
 
 }
+
+async function setBlockCount(count:number) {
+  await db.put(`blockCount`,{value:count})
+  return
+}
+
+async function manualCheck(){
+
+  var blockCount = (await db.get(`blockCount`)).value;
+
+  for(var i = 1; i<blockCount;i++){
+    var currentBlock = await db.get(`b_${i}`)
+    var currentTxn = await db.get(`t_${i}`)
+
+    console.log(`${currentTxn.height} is ${hash(canonicalize(currentBlock))}`)
+
+  }
+
+  
+
+}
+
+// manualCheck()
 
 // init()
 
@@ -201,8 +241,22 @@ async function resetAll(){
 //  getBlock(0)
 // getBlock(1)
 // getBlock(2)
-// getBlock(3)
+
+// {
+//   T: '00000000abc00000000000000000000000000000000000000000000000000000',
+//   created: 1671133200,
+//   miner: 'Om Nom Nommm It is ALLL MINE',
+//   nonce: '62be409ec50c714e0d424e9cb6e9236f149894fbb0a0992ed6bcea6f466223c3',
+//   previd: '0000000092f2be330f8b7a0f62776613e32b6ceabb4a56b985002c073acd0249',
+//   txids: [
+//     '243f3266355713cb8f537d036474ee5483534e59f1f7bf0b795dff6368a76a58'
+//   ],
+//   type: 'block'
+// }
+// 243f3266355713cb8f537d036474ee5483534e59f1f7bf0b795dff6368a76a58
+// getBlock(236)
+// getTxn(236)
 
 getCounts();
 
-// setCounts(0,4998)
+// setCounts(234,4998)
