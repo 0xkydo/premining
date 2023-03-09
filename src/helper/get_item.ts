@@ -184,8 +184,11 @@ init()
 
 // getTxn(500)
 
-// getBlock(0)
+ getBlock(0)
+getBlock(1)
+getBlock(2)
+getBlock(3)
 
-getCounts();
+// getCounts();
 
 // setCounts(0,4998)
