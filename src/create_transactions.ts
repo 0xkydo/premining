@@ -37,26 +37,26 @@ const db = new Level(dbPathAbs);
 
 
 // // Read current transaction count.
-async function createTxn() {
+// async function createTxn() {
 
 
-  var sampleCoinbaseTxn ={
-    "type": "transaction",
-    "height": 1,
-    "outputs": [
-      {
-        "pubkey": "0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4",
-        "value": 50000000000
-      }
-    ]
-  }
+//   var sampleCoinbaseTxn ={
+//     "type": "transaction",
+//     "height": 1,
+//     "outputs": [
+//       {
+//         "pubkey": "0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4",
+//         "value": 50000000000
+//       }
+//     ]
+//   }
 
-  for(var i = 0;i<TOTALTXN;i++){
-    db.put(`t_${sampleCoinbaseTxn.height}`,canonicalize(sampleCoinbaseTxn));
-    sampleCoinbaseTxn.height++;
-  }
-  db.put(`transactionCount`,TOTALTXN);
+//   for(var i = 0;i<TOTALTXN;i++){
+//     db.put(`t_${sampleCoinbaseTxn.height}`,canonicalize(sampleCoinbaseTxn));
+//     sampleCoinbaseTxn.height++;
+//   }
+//   db.put(`transactionCount`,TOTALTXN);
 
-}
+// }
 
-createTxn();
+// createTxn();

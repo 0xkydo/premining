@@ -1,9 +1,7 @@
-import { hash } from './helper/hash';
 import { canonicalize } from 'json-canonicalize'
 import Level from 'level-ts';
 import path from 'path';
 import * as net from 'net'
-import { stringify } from 'querystring';
 import { delay } from './helper/promise';
 
 const dbPath = "./db";
@@ -49,7 +47,6 @@ function wrapObject(object: any): any{
 }
 
 
-
 function init(){
   sendObject(HELLO);
   sendObject(TIP);
@@ -67,16 +64,27 @@ async function setChainTip(num: number){
 
 
   for(var i = 1; i<num;i++){
-    const block = JSON.parse(await db.get(`b_${i}`))
+    const block = await db.get(`b_${i}`)
     sendObject(wrapObject(block))
-    console.log(block.created.toString()+block.previd)
     delay(15)
+
   }
 
-  for(var i = 1; i<=num; i++){
+  for(var i = 1; i<num; i++){
 
-    const tx = JSON.parse(await db.get(`t_${i}`))
-    sendObject(wrapObject(tx))    
+    const tx = await db.get(`t_${i}`)
+    const txObj = await JSON.parse(tx)
+    const txStr = canonicalize({
+      type:'object',
+      object: txObj
+    })
+
+    console.log(txStr)
+
+    writeToNode(txStr);
+
+  
+    
     delay(15)
 
 
@@ -91,7 +99,9 @@ async function setChainTip(num: number){
 
   // Get object
   // Block height 203
-  // getObject('0000000082f50ddc620c1e5fe844e232d8d889fc1e6f281a58b14837a3817800')
+  // getObject('55e7ec938589aae5491ac61691da7de6a7954904bf44a168a1b3ee67f83eacbe')
+  // {"object":{"height":4,"outputs":[{"pubkey":"0513817d1170f4152666f367c5c1d8s22f38e954eb5c368e1938266d2de9969f4","value":50000000000}],"type":"transaction"},"type":"object"}
+  // {"object":{"height":211,"outputs":[{"pubkey":"e54f6be504b8707bdea7e2a95bb10d17f378c761cc4409b3fdcca38d23646ed5","value":50000000000000}],"type":"transaction"},"type":"object"}
 
   /*
   {"description":"Parent block 00000000326ac45f8d284e2f0fe16bec737201cbc0fcf390f90031a70fabb7a9 created at 1671150000 has future timestamp of block 0000000052c30916e650eb73288ca898eab04d3a95e98d765e6b2726d1a8ad1e created at 1671149100.","name":"INVALID_BLOCK_TIMESTAMP","type":"error"}
@@ -108,7 +118,7 @@ async function setChainTip(num: number){
 // 1671149700
 
 
-  await setChainTip(55)
+  // await setChainTip(5)
 
 
 })();

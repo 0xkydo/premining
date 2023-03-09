@@ -58,7 +58,7 @@ async function resetTxn(){
     "height": 1,
     "outputs": [
       {
-        "pubkey": "0513817d1170f4152666f367c5c1d8s22f38e954eb5c368e1938266d2de9969f4",
+        "pubkey": "0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4",
         "value": 50000000000
       }
     ]
@@ -171,7 +171,6 @@ async function longestBlock(){
     
   }
 
-  
 
 }
 
@@ -184,9 +183,9 @@ async function resetAll(){
 
 }
 
-// init()
+init()
 
-// resetAll();
+resetAll();
 
 // longestBlock()
 // checkAllBlocks()
@@ -204,6 +203,6 @@ async function resetAll(){
 // getBlock(2)
 // getBlock(3)
 
-getCounts();
+// getCounts();
 
 // setCounts(0,4998)
