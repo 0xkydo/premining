@@ -8,15 +8,32 @@ const dbPathAbs = path.resolve(dbPath);
 
 const db = new Level(dbPathAbs);
 
-async function getBlock(height: number){
-  console.log(`Current Block: \n`+ await db.get(`b_${height}`));
-  console.log(`Current Transaction: \n`+ await db.get(`t_${height}`));
-  console.log(`Last block: \n`+await db.get(`b_${height-1}`));
+async function init(){
+  const genesis = {
+    "T": "00000000abc00000000000000000000000000000000000000000000000000000",
+    "created": 1671062400,
+    "miner": "Marabu",
+    "nonce": "000000000000000000000000000000000000000000000000000000021bea03ed",
+    "note": "The New York Times 2022-12-13: Scientists Achieve Nuclear Fusion Breakthrough With Blast of 192 Lasers",
+    "previd": null,
+    "txids": [],
+    "type": "block"
+  };
+  await db.put(`b_0`,genesis);
+  console.log(`Genesis Loaded`);
 }
-async function setCounts(numB: number,numT: number){
-  await db.put(`transactionCount`,numT)
 
-  await db.put(`blockCount`,numB)
+async function getBlock(height: number){
+  console.log(await db.get(`b_${height}`));
+  console.log(`Current Transaction: \n`+ await db.get(`t_${height}`));
+  // console.log(`Last block: \n`+await db.get(`b_${height-1}`));
+}
+
+
+async function setCounts(numB: number,numT: number){
+  await db.put(`transactionCount`,{value:numT})
+
+  await db.put(`blockCount`,{value:numB})
 }
 
 async function getTxn(height: number){
@@ -27,8 +44,8 @@ async function getTest(height: number){
   console.log(await db.get(`test_${height}`));
 }
 async function getCounts(){
-  console.log(`TXN: `+ await db.get(`transactionCount`));
-  console.log(`Block: `+ await db.get(`blockCount`));
+  console.log(`TXN: `+ (await db.get(`transactionCount`)).value);
+  console.log(`Block: `+ (await db.get(`blockCount`)).value);
 }
 
 
@@ -154,19 +171,21 @@ async function longestBlock(){
 
 }
 
+init()
+
 // longestBlock()
 // checkAllBlocks()
 
 // resetTxn();
 
-// getTest(1242);
+// getTest(500);
 
 // getBlock(8026)
 
-// getTxn(100000)
+// getTxn(500)
 
-// getBlock(4)
+// getBlock(0)
 
 getCounts();
 
-// setCounts(0,3000)
+// setCounts(0,4998)

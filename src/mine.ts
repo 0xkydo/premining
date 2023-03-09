@@ -25,39 +25,31 @@ const filePathAbs = path.resolve(filePath);
 // Constants
 
 (async () => {
-  const txnCount = parseInt(await db.get(`transactionCount`));
+  const txnCountObj = await db.get('transactionCount');
+  const txnCount = txnCountObj.value;
+  console.log(typeof(txnCount))
   console.log(`Total transactions: ` + txnCount);
   // all of the script.... 
-  var lastBlockHeight = parseInt(await db.get(`blockCount`));
+  var lastBlockHeightObj = await db.get(`blockCount`);
+  var lastBlockHeight = lastBlockHeightObj.value;
   console.log(`Total blocks : ` + lastBlockHeight);
 
-  const genesis = {
-    "T": "00000000abc00000000000000000000000000000000000000000000000000000",
-    "created": 1671062400,
-    "miner": "Marabu",
-    "nonce": "000000000000000000000000000000000000000000000000000000021bea03ed",
-    "note": "The New York Times 2022-12-13: Scientists Achieve Nuclear Fusion Breakthrough With Blast of 192 Lasers",
-    "previd": null,
-    "txids": [],
-    "type": "block"
-  };
-  await db.put(`b_0`,genesis);
-  console.log(`Genesis Loaded`);
+
 
 
   // Store block object to a specific height number.
   async function storeBlock(block: any, height: number) {
     await db.put(`b_${height}`, canonicalize(block));
-    await db.put('blockCount', height.toString());
+    await db.put('blockCount', {value: height});
   };
 
   async function loadStartingBlock(): Promise<any> {
-    return JSON.parse(await db.get(`b_${lastBlockHeight}`));
+    return await db.get(`b_${lastBlockHeight}`);
   };
 
   // Load txn and compute hash.
   async function loadTxn(height: number): Promise<any> {
-    return JSON.parse(await db.get(`t_${height}`));
+    return await db.get(`t_${height}`);
   };
 
   // Store prefix and suffix into local txt file.
