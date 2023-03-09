@@ -45,6 +45,8 @@ const filePathAbs = path.resolve(filePath);
 
   async function loadStartingBlock(): Promise<any> {
     const block = await db.get(`b_${lastBlockHeight}`);
+    console.log(`Starting Block Loaded`)
+    console.log(block);
     return block;
   };
 
