@@ -53,7 +53,10 @@ const filePathAbs = path.resolve(filePath);
 
   // Load txn and compute hash.
   async function loadTxn(height: number): Promise<any> {
-    return await db.get(`t_${height}`);
+    console.log(`Transaction at height ${height}`);
+    const tx = await db.get(`t_${height}`)
+    console.log(tx)
+    return tx;
   };
 
   // Store prefix and suffix into local txt file.

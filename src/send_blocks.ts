@@ -3,6 +3,7 @@ import Level from 'level-ts';
 import path from 'path';
 import * as net from 'net'
 import { delay } from './helper/promise';
+import { hash } from './helper/hash';
 
 const dbPath = "./db";
 const dbPathAbs = path.resolve(dbPath);
@@ -65,12 +66,8 @@ async function setChainTip(num: number){
 
   for(var i = 1; i<num;i++){
     const block = await db.get(`b_${i}`)
+    console.log(block)
     sendObject(wrapObject(block))
-    delay(15)
-
-  }
-
-  for(var i = 1; i<num; i++){
 
     const tx = await db.get(`t_${i}`)
     const txObj = await JSON.parse(tx)
@@ -78,15 +75,11 @@ async function setChainTip(num: number){
       type:'object',
       object: txObj
     })
-
-    console.log(txStr)
+    console.log(hash(canonicalize(txObj)))
 
     writeToNode(txStr);
 
-  
-    
     delay(15)
-
 
   }
 
@@ -118,7 +111,7 @@ async function setChainTip(num: number){
 // 1671149700
 
 
-  // await setChainTip(5)
+  await setChainTip(4)
 
 
 })();

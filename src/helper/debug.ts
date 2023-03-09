@@ -64,8 +64,8 @@ async function resetTxn(){
     ]
   }
 
-  for(var i = 0;i<5000;i++){
-    db.put(`t_${sampleCoinbaseTxn.height}`,canonicalize(sampleCoinbaseTxn));
+  for(var i = 1;i<5000;i++){
+    db.put(`t_${i}`,sampleCoinbaseTxn);
     sampleCoinbaseTxn.height++;
   }
 
@@ -185,7 +185,7 @@ async function resetAll(){
 
 // init()
 
-// resetAll();
+resetAll();
 
 // longestBlock()
 // checkAllBlocks()
@@ -196,7 +196,7 @@ async function resetAll(){
 
 // getBlock(8026)
 
-// getTxn(500)
+// getTxn(2)
 
 //  getBlock(0)
 // getBlock(1)
