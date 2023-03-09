@@ -70,14 +70,10 @@ async function setChainTip(num: number){
     sendObject(wrapObject(block))
 
     const tx = await db.get(`t_${i}`)
-    const txObj = await JSON.parse(tx)
-    const txStr = canonicalize({
-      type:'object',
-      object: txObj
-    })
-    console.log(hash(canonicalize(txObj)))
 
-    writeToNode(txStr);
+    console.log(hash(canonicalize(tx)))
+
+    sendObject(wrapObject(tx));
 
     delay(15)
 
@@ -111,7 +107,7 @@ async function setChainTip(num: number){
 // 1671149700
 
 
-  await setChainTip(4)
+  await setChainTip(3)
 
 
 })();
