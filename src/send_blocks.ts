@@ -66,10 +66,10 @@ function getObject(_id:string){
 async function setChainTip(num: number){
 
 
-
   for(var i = 1; i<num;i++){
     const block = JSON.parse(await db.get(`b_${i}`))
     sendObject(wrapObject(block))
+    console.log(block.created.toString()+block.previd)
     delay(15)
   }
 
@@ -108,7 +108,7 @@ async function setChainTip(num: number){
 // 1671149700
 
 
-  await setChainTip(50)
+  await setChainTip(55)
 
 
 })();

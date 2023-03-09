@@ -31,6 +31,19 @@ const filePathAbs = path.resolve(filePath);
   var lastBlockHeight = parseInt(await db.get(`blockCount`));
   console.log(`Total blocks : ` + lastBlockHeight);
 
+  const genesis = {
+    "T": "00000000abc00000000000000000000000000000000000000000000000000000",
+    "created": 1671062400,
+    "miner": "Marabu",
+    "nonce": "000000000000000000000000000000000000000000000000000000021bea03ed",
+    "note": "The New York Times 2022-12-13: Scientists Achieve Nuclear Fusion Breakthrough With Blast of 192 Lasers",
+    "previd": null,
+    "txids": [],
+    "type": "block"
+  };
+  await db.put(`b_0`,genesis);
+  console.log(`Genesis Loaded`);
+
 
   // Store block object to a specific height number.
   async function storeBlock(block: any, height: number) {
@@ -46,7 +59,6 @@ const filePathAbs = path.resolve(filePath);
   async function loadTxn(height: number): Promise<any> {
     return JSON.parse(await db.get(`t_${height}`));
   };
-
 
   // Store prefix and suffix into local txt file.
   function storePrefixSuffix(text: string, prefix: boolean) {
@@ -89,7 +101,7 @@ const filePathAbs = path.resolve(filePath);
   var previd = hash(canonicalize(prevBlock));
 
   currentBlock.previd = previd;
-
+  currentBlock.created = prevBlock.created;
 
   // Testing Cases
   async function run() {
@@ -163,7 +175,6 @@ const filePathAbs = path.resolve(filePath);
       let elapsedTime = endTime - startTime;
       console.log("Elapsed time: " + elapsedTime + "ms");
       console.log(`Average block production rate: ${elapsedTime / counter / 1000}s/block`)
-
 
     }
 

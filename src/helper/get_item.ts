@@ -39,13 +39,13 @@ async function resetTxn(){
     "height": 1,
     "outputs": [
       {
-        "pubkey": "0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4",
+        "pubkey": "0513817d1170f4152666f367c5c1d8s22f38e954eb5c368e1938266d2de9969f4",
         "value": 50000000000
       }
     ]
   }
 
-  for(var i = 0;i<10000;i++){
+  for(var i = 0;i<5000;i++){
     db.put(`t_${sampleCoinbaseTxn.height}`,canonicalize(sampleCoinbaseTxn));
     sampleCoinbaseTxn.height++;
   }
@@ -86,6 +86,15 @@ async function checkAllBlocks(){
 
     }
 
+    if(block.created < prevBlock.created){
+
+      console.log('Failed timestamp: \n' + currentTxn);
+
+      console.log(`Failed at ${i} , txn`);
+      return;
+
+    }
+
   }
   console.log(`all passes`)
 
@@ -95,7 +104,6 @@ async function checkAllBlocks(){
 async function longestBlock(){
 
   var blockCount = await db.get(`blockCount`);
-
   var i =0;
   for(i = 0; i<10000; i++){
 
@@ -121,6 +129,17 @@ async function longestBlock(){
         return;
   
       }
+      console.log(block.created)
+
+      if(block.created < prevBlock.created){
+
+        console.log(block.created)
+
+        console.log(`Longest block at ${blockCount-1}`);
+        await db.put('blockCount',(blockCount-1))
+        return;
+
+      }
   
       blockCount++;
 
@@ -135,11 +154,8 @@ async function longestBlock(){
 
 }
 
-
-
-
-longestBlock()
-checkAllBlocks()
+// longestBlock()
+// checkAllBlocks()
 
 // resetTxn();
 
@@ -151,6 +167,6 @@ checkAllBlocks()
 
 // getBlock(4)
 
-// getCounts();
+getCounts();
 
-// setCounts(1094,6000)
+// setCounts(0,3000)
