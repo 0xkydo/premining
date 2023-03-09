@@ -160,6 +160,7 @@ const filePathAbs = path.resolve(filePath);
       // await storeTestBlock(currentBlock, ++lastBlockHeight);
 
       console.log(currentBlock)
+      console.log(curTxn)
 
       // Preping next block.
       // previd = current blockhash.
