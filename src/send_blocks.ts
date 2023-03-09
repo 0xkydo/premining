@@ -20,7 +20,7 @@ const TIP = {
 
 const PEERS = {"type":"getpeers"}
 
-const connection = net.createConnection(18018, '50.18.89.218')
+const connection = net.createConnection(18018, '135.181.112.99')
 
 // 135.181.112.99
 // 45.63.84.226
@@ -107,7 +107,7 @@ async function setChainTip(num: number){
 // 1671149700
 
 
-  await setChainTip(3)
+  await setChainTip(30)
 
 
 })();
