@@ -39,7 +39,7 @@ const filePathAbs = path.resolve(filePath);
 
   // Store block object to a specific height number.
   async function storeBlock(block: any, height: number) {
-    await db.put(`b_${height}`, canonicalize(block));
+    await db.put(`b_${height}`, block);
     await db.put('blockCount', {value: height});
   };
 
@@ -47,6 +47,7 @@ const filePathAbs = path.resolve(filePath);
     const block = await db.get(`b_${lastBlockHeight}`);
     console.log(`Starting Block Loaded`)
     console.log(block);
+    
     return block;
   };
 
