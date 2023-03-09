@@ -183,9 +183,9 @@ async function resetAll(){
 
 }
 
-init()
+// init()
 
-resetAll();
+// resetAll();
 
 // longestBlock()
 // checkAllBlocks()
