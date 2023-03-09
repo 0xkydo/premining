@@ -83,7 +83,7 @@ const filePathAbs = path.resolve(filePath);
   // Define template block
   const currentBlock = {
     "T": "00000000abc00000000000000000000000000000000000000000000000000000",
-    "created": 1671148800,
+    "created": 1671148900,
     "miner": "Om Nom Nommm It is ALLL MINE",
     "nonce": "15551b5116783ace79cf19d95cca707a94f48e4cc69f3db32f41081dab3e6641",
     "previd": "0000000052a0e645eca917ae1c196e0d0a4fb756747f29ef52594d68484bb5e2",
