@@ -213,6 +213,10 @@ async function manualCheck(){
     var currentBlock = await db.get(`b_${i}`)
     var currentTxn = await db.get(`t_${i}`)
 
+    var prevBlock = await db.get(`b_${i-1}`)
+    var prevTxn = await db.get(`t_${i-1}`)
+
+
     console.log(`${currentTxn.height} is ${hash(canonicalize(currentBlock))}`)
 
   }
@@ -257,6 +261,6 @@ async function manualCheck(){
 // getBlock(236)
 // getTxn(236)
 
-getCounts();
+// getCounts();
 
 // setCounts(234,4998)
