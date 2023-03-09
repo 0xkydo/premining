@@ -50,6 +50,8 @@ async function getCounts(){
 
 
 
+
+
 async function resetTxn(){
   var sampleCoinbaseTxn ={
     "type": "transaction",
@@ -169,9 +171,22 @@ async function longestBlock(){
     
   }
 
+  
+
+}
+
+async function resetAll(){
+
+  await init();
+  await resetTxn();
+  await setCounts(0,4998);
+  await getCounts()
+
 }
 
 init()
+
+resetAll();
 
 // longestBlock()
 // checkAllBlocks()
@@ -184,10 +199,10 @@ init()
 
 // getTxn(500)
 
- getBlock(0)
-getBlock(1)
-getBlock(2)
-getBlock(3)
+//  getBlock(0)
+// getBlock(1)
+// getBlock(2)
+// getBlock(3)
 
 // getCounts();
 

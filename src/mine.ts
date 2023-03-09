@@ -44,7 +44,8 @@ const filePathAbs = path.resolve(filePath);
   };
 
   async function loadStartingBlock(): Promise<any> {
-    return await db.get(`b_${lastBlockHeight}`);
+    const block = await db.get(`b_${lastBlockHeight}`);
+    return block;
   };
 
   // Load txn and compute hash.
