@@ -221,7 +221,7 @@ async function manualCheck(){
 
 }
 
-manualCheck()
+// manualCheck()
 
 // init()
 
@@ -239,4 +239,4 @@ manualCheck()
 
 // getCounts();
 
-// setCounts(668,4998)
+setCounts(668,4998)
