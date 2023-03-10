@@ -20,11 +20,12 @@ const TIP = {
 
 const PEERS = {"type":"getpeers"}
 
-const connection = net.createConnection(18018, '135.181.112.99')
+const connection = net.createConnection(18018, '45.63.84.226')
 
-// 135.181.112.99
+// Ryan 135.181.112.99
 // 45.63.84.226
 // 45.63.89.228
+// Own node 54.67.110.108
 // Master solutio node: 50.18.89.218
 
 connection.on('data', (data) => {
@@ -95,11 +96,9 @@ async function setChainTip(num: number){
   // Init
   init()
 
-  // Get object
-  getObject('000000005f528869e0217e1b9e283a5841482837c91f886c2634d160a449e68c')
-  getObject('b79ba6c69f88b56be8ded607d8568511d09accef4fbcfe7f5f121890ca03c4c5')
-
-
+  // // Get object
+  // getObject('0000000031e9e25ede0b4fe5cb9385691de057ee055efc2b872be9b763946514')
+  // getObject('a3f066c06ff21bb399a7bf3945eaf01cb3ff13dbb532d116024e140f03dbd3e7')
 
 
 
