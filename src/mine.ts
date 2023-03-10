@@ -89,6 +89,7 @@ const filePathAbs = path.resolve(filePath);
     "T": "00000000abc00000000000000000000000000000000000000000000000000000",
     "created": 1671148900,
     "miner":"Om Nom Will Go Offline In A Day",
+    "note":"Don't try to do new things. Imma be gone in 24 hrs. If I see people speeding the chain, I will dump my full 30,000 block.",
     "nonce": "15551b5116783ace79cf19d95cca707a94f48e4cc69f3db32f41081dab3e6641",
     "previd": "0000000052a0e645eca917ae1c196e0d0a4fb756747f29ef52594d68484bb5e2",
     "txids": ["8265faf623dfbcb17528fcd2e67fdf78de791ed4c7c60480e8cd21c6cdc8bcd4"],
