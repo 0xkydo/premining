@@ -20,7 +20,7 @@ const TIP = {
 
 const PEERS = {"type":"getpeers"}
 
-const connection = net.createConnection(18018, '45.63.84.226')
+const connection = net.createConnection(18018, '50.18.89.218')
 
 // 135.181.112.99
 // 45.63.84.226
@@ -51,7 +51,10 @@ function wrapObject(object: any): any{
 function init(){
   sendObject(HELLO);
   sendObject(TIP);
-  sendObject(PEERS)
+  sendObject(PEERS);
+  sendObject({
+    type:'getmempool'
+  })
 }
 
 function getObject(_id:string){
@@ -88,7 +91,7 @@ async function setChainTip(num: number){
 
   // Get object
   // Block height 203
-  // getObject('55e7ec938589aae5491ac61691da7de6a7954904bf44a168a1b3ee67f83eacbe')
+  getObject('47ebc23aea3888fa779da5b6972963b00a3b36b258731f4ad0e9aa80ae4c2c09')
   // {"object":{"height":4,"outputs":[{"pubkey":"0513817d1170f4152666f367c5c1d8s22f38e954eb5c368e1938266d2de9969f4","value":50000000000}],"type":"transaction"},"type":"object"}
   // {"object":{"height":211,"outputs":[{"pubkey":"e54f6be504b8707bdea7e2a95bb10d17f378c761cc4409b3fdcca38d23646ed5","value":50000000000000}],"type":"transaction"},"type":"object"}
 
@@ -107,7 +110,7 @@ async function setChainTip(num: number){
 // 1671149700
 
 
-  await setChainTip(400)
+  // await setChainTip(400)
 
 
 })();

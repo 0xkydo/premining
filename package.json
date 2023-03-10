@@ -12,7 +12,9 @@
     "mine3": "ts-node src/mine.ts -mine3",
     "mine4": "ts-node src/mine.ts -mine4",
     "mine8": "ts-node src/mine.ts -mine8",
-    "genesis": "ts-node genesis.ts"
+    "genesis": "ts-node genesis.ts",
+    "debug": "ts-node src/helper/debug.ts",
+    "send": "ts-node src/send_blocks.ts"
   },
   "keywords": [],
   "author": "",

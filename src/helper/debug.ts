@@ -30,7 +30,7 @@ async function getBlock(height: number){
 }
 
 
-async function setCounts(numB: number,numT: number){
+export async function setCounts(numB: number,numT: number){
   await db.put(`transactionCount`,{value:numT})
 
   await db.put(`blockCount`,{value:numB})
@@ -221,7 +221,7 @@ async function manualCheck(){
 
 }
 
-manualCheck()
+// manualCheck()
 
 // init()
 
