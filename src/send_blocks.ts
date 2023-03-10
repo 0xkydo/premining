@@ -20,11 +20,11 @@ const TIP = {
 
 const PEERS = {"type":"getpeers"}
 
-const connection = net.createConnection(18018, '50.18.89.218')
+const connection = net.createConnection(18018, '45.63.89.228')
 
 // 135.181.112.99
 // 45.63.84.226
-// 45.63.87.246
+// 45.63.89.228
 // Master solutio node: 50.18.89.218
 
 connection.on('data', (data) => {
@@ -51,10 +51,10 @@ function wrapObject(object: any): any{
 function init(){
   sendObject(HELLO);
   sendObject(TIP);
-  sendObject(PEERS);
-  sendObject({
-    type:'getmempool'
-  })
+  // sendObject(PEERS);
+  // sendObject({
+  //   type:'getmempool'
+  // })
 }
 
 function getObject(_id:string){
@@ -67,16 +67,14 @@ function getObject(_id:string){
 async function setChainTip(num: number){
 
 
-  for(var i = 1; i<num;i++){
+  for(var i = 648; i<num;i++){
     const block = await db.get(`b_${i}`)
-    console.log(block)
     sendObject(wrapObject(block))
+    console.log(block)
 
     const tx = await db.get(`t_${i}`)
-
-    console.log(hash(canonicalize(tx)))
-
     sendObject(wrapObject(tx));
+    console.log(tx)
 
     delay(15)
 
@@ -91,7 +89,7 @@ async function setChainTip(num: number){
 
   // Get object
   // Block height 203
-  getObject('47ebc23aea3888fa779da5b6972963b00a3b36b258731f4ad0e9aa80ae4c2c09')
+  getObject('2df1fc8c1c868feab4a57ec122d885299af9bd949c74336342eb7adb1ab65f5b')
   // {"object":{"height":4,"outputs":[{"pubkey":"0513817d1170f4152666f367c5c1d8s22f38e954eb5c368e1938266d2de9969f4","value":50000000000}],"type":"transaction"},"type":"object"}
   // {"object":{"height":211,"outputs":[{"pubkey":"e54f6be504b8707bdea7e2a95bb10d17f378c761cc4409b3fdcca38d23646ed5","value":50000000000000}],"type":"transaction"},"type":"object"}
 
@@ -110,7 +108,7 @@ async function setChainTip(num: number){
 // 1671149700
 
 
-  // await setChainTip(400)
+  // await setChainTip(651)
 
 
 })();
