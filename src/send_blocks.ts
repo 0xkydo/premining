@@ -96,14 +96,14 @@ async function setChainTip(num: number){
   init()
 
   // Get object
-  // getObject('c06955a06dfa6e22f0f20b31cbd7a13028ff8d470e0bf33f3671945c99c7b1c6')
-  // getObject('b2d57cd8890daba1b414d0d6d6b50cbefeb372da056bc2582faf7acb473d2519')
+  getObject('000000005f528869e0217e1b9e283a5841482837c91f886c2634d160a449e68c')
+  getObject('b79ba6c69f88b56be8ded607d8568511d09accef4fbcfe7f5f121890ca03c4c5')
 
 
 
 
 
-  // await setChainTip(670)
+  // await setChainTip(674)
 
 
 })();
