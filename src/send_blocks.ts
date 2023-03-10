@@ -20,7 +20,7 @@ const TIP = {
 
 const PEERS = {"type":"getpeers"}
 
-const connection = net.createConnection(18018, '45.63.89.228')
+const connection = net.createConnection(18018, '135.181.112.99')
 
 // 135.181.112.99
 // 45.63.84.226
@@ -66,6 +66,14 @@ function getObject(_id:string){
 
 async function setChainTip(num: number){
 
+  const block = await db.get(`b_${num}`)
+  const blockId = hash(canonicalize(block))
+
+  sendObject({
+    type:'chaintip',
+    blockid: blockId
+  })
+
 
   for(var i = 648; i<num;i++){
     const block = await db.get(`b_${i}`)
@@ -88,27 +96,14 @@ async function setChainTip(num: number){
   init()
 
   // Get object
-  // Block height 203
-  getObject('2df1fc8c1c868feab4a57ec122d885299af9bd949c74336342eb7adb1ab65f5b')
-  // {"object":{"height":4,"outputs":[{"pubkey":"0513817d1170f4152666f367c5c1d8s22f38e954eb5c368e1938266d2de9969f4","value":50000000000}],"type":"transaction"},"type":"object"}
-  // {"object":{"height":211,"outputs":[{"pubkey":"e54f6be504b8707bdea7e2a95bb10d17f378c761cc4409b3fdcca38d23646ed5","value":50000000000000}],"type":"transaction"},"type":"object"}
-
-  /*
-  {"description":"Parent block 00000000326ac45f8d284e2f0fe16bec737201cbc0fcf390f90031a70fabb7a9 created at 1671150000 has future timestamp of block 0000000052c30916e650eb73288ca898eab04d3a95e98d765e6b2726d1a8ad1e created at 1671149100.","name":"INVALID_BLOCK_TIMESTAMP","type":"error"}
-
-{"description":"Retrieval of block parent for block 00000000848f5f799bcbb0445af2937289039165c2553d0bf150806c1a71eb78 failed; rejecting block: Parent block 00000000326ac45f8d284e2f0fe16bec737201cbc0fcf390f90031a70fabb7a9 created at 1671150000 has future timestamp of block 0000000052c30916e650eb73288ca898eab04d3a95e98d765e6b2726d1a8ad1e created at 1671149100.","name":"UNFINDABLE_OBJECT","type":"error"}
-  
-  */
-
-// const block = JSON.parse(await db.get(`b_${3}`))
-// console.log(block)
-// 1671062400
-// 1671149100
-// 1671149400
-// 1671149700
+  getObject('22054994f2f60126ae4ddea354c4eabd24d0cbd0c65a2d5d7b7cc15b182280ee')
+  // getObject('b2d57cd8890daba1b414d0d6d6b50cbefeb372da056bc2582faf7acb473d2519')
 
 
-  // await setChainTip(651)
+
+
+
+  // await setChainTip(670)
 
 
 })();

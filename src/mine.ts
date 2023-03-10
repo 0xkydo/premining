@@ -122,7 +122,7 @@ const filePathAbs = path.resolve(filePath);
 
       // Change template block to the correct number.
       currentBlock.nonce = "";
-      currentBlock.created += 300;
+      currentBlock.created += 15;
       currentBlock.txids[0] = txnHash;
 
       // Format block into two strings.

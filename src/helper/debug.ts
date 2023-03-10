@@ -234,29 +234,9 @@ async function manualCheck(){
 
 // getTest(500);
 
-// getBlock(8026)
-
-// getTxn(2)
-
-//  getBlock(0)
-// getBlock(1)
-// getBlock(2)
-
-// {
-//   T: '00000000abc00000000000000000000000000000000000000000000000000000',
-//   created: 1671133200,
-//   miner: 'Om Nom Nommm It is ALLL MINE',
-//   nonce: '62be409ec50c714e0d424e9cb6e9236f149894fbb0a0992ed6bcea6f466223c3',
-//   previd: '0000000092f2be330f8b7a0f62776613e32b6ceabb4a56b985002c073acd0249',
-//   txids: [
-//     '243f3266355713cb8f537d036474ee5483534e59f1f7bf0b795dff6368a76a58'
-//   ],
-//   type: 'block'
-// }
-// 243f3266355713cb8f537d036474ee5483534e59f1f7bf0b795dff6368a76a58
 // getBlock(236)
 // getTxn(236)
 
 // getCounts();
 
-// setCounts(234,4998)
+setCounts(667,4998)
