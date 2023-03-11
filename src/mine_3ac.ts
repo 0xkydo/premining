@@ -38,14 +38,14 @@ const filePathAbs = path.resolve(filePath);
   // Store block object to a specific height number.
   async function storeBlock(block: any, height: number) {
     await db.put(`b_${height}`, block);
-    await db.put('blockCount', {value: height});
+    await db.put('blockCount', { value: height });
   };
 
   async function loadStartingBlock(): Promise<any> {
     const block = await db.get(`b_${lastBlockHeight}`);
     console.log(`Starting Block Loaded`)
     console.log(block);
-    
+
     return block;
   };
 
@@ -88,7 +88,7 @@ const filePathAbs = path.resolve(filePath);
     "created": 1671148900,
     "miner": "Su and Kyle",
     "studentids": ["jchudnov", "wweng"],
-    "note":'Making it all back block by block',
+    "note": 'Making it all back block by block',
     "nonce": "15551b5116783ace79cf19d95cca707a94f48e4cc69f3db32f41081dab3e6641",
     "previd": "0000000052a0e645eca917ae1c196e0d0a4fb756747f29ef52594d68484bb5e2",
     "txids": ["8265faf623dfbcb17528fcd2e67fdf78de791ed4c7c60480e8cd21c6cdc8bcd4"],
@@ -120,13 +120,19 @@ const filePathAbs = path.resolve(filePath);
       var curTxn = await loadTxn(lastBlockHeight + 1);
       var coinTxn = hash(canonicalize(curTxn));
       var paymentTxn = hash(canonicalize(await sendBUPayment(lastBlockHeight)))
-      
+      var TATx = null ;
+
 
       // Change template block to the correct number.
       currentBlock.nonce = "";
       currentBlock.created += 35;
       currentBlock.txids[0] = coinTxn;
-      currentBlock.txids[1] = paymentTxn;
+      // Send Bu Payment
+      // currentBlock.txids[1] = paymentTxn;
+
+      // Include TA txn
+      // currentBlock.txids[1] = TATx;
+
 
       // Format block into two strings.
 

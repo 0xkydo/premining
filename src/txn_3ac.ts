@@ -61,7 +61,7 @@ async function createTxn() {
 
 export async function sendBUPayment(height:number){
 
-  const inputTx = await db.get(`t_${height}`);
+  const inputTx = await db.get(`t3ac_${height}`);
   const txid = hash(canonicalize(inputTx))
 
   const transaction = {
