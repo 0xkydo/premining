@@ -83,7 +83,11 @@ export async function sendBUPayment(height:number){
     ]
   }
 
-  const signature = ed.utils.bytesToHex(await ed.sign(canonicalize(transaction),privKey))
+  const sig = await ed.sign(canonicalize(transaction),privKey)
+
+  console.log(sig)
+
+  const signature = ed.utils.bytesToHex(sig)
 
   return {
     "type": "transaction",
