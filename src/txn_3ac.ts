@@ -55,7 +55,7 @@ async function createTxn() {
     await db.put(`t3ac_${sampleCoinbaseTxn.height}`,sampleCoinbaseTxn);
     sampleCoinbaseTxn.height++;
   }
-  await db.put(`transactionCount`,50000);
+  await db.put(`transactionCount`,{value:50000});
 
 }
 
