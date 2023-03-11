@@ -242,8 +242,8 @@ async function manualCheck(){
 // getBlock(668)
 // getTxn(668)
 
-// getCounts();
+getCounts();
 
-setCounts(1003,5000)
+// setCounts(1003,5000)
 
-getTxn3ac(1004)
+// getTxn3ac(1004)
