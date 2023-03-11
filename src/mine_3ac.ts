@@ -121,20 +121,20 @@ const filePathAbs = path.resolve(filePath);
       var coinTxn = hash(canonicalize(curTxn));
       var paymentTxn = await db.get(`tbu_${lastBlockHeight}`)
       // var paymentHash = hash(canonicalize(paymentTxn))
-      var taTx = {"inputs":[{"outpoint":{"index":0,"txid":"c9856c9f36afc6e844a3c4e03e496fbae3c9599f4a7f66e0cb186a16da5cad73"},"sig":"781d3a32e940114834e2b5279465979b07a2b07f3749988f338e88e42ad66ddffeb342f6961e81f1aab997941df939cb591a79dd1a5d3f914c3e404d7afb0c0b"}],"outputs":[{"pubkey":"3f0bc71a375b574e4bda3ddf502fe1afd99aa020bf6049adfe525d9ad18ff33f","value":50000000000000}],"type":"transaction"} ;
+      // var taTx = {"inputs":[{"outpoint":{"index":0,"txid":"c9856c9f36afc6e844a3c4e03e496fbae3c9599f4a7f66e0cb186a16da5cad73"},"sig":"781d3a32e940114834e2b5279465979b07a2b07f3749988f338e88e42ad66ddffeb342f6961e81f1aab997941df939cb591a79dd1a5d3f914c3e404d7afb0c0b"}],"outputs":[{"pubkey":"3f0bc71a375b574e4bda3ddf502fe1afd99aa020bf6049adfe525d9ad18ff33f","value":50000000000000}],"type":"transaction"} ;
 
-      const taHash = hash(canonicalize(taTx))
+      // const taHash = hash(canonicalize(taTx))
 
 
       // Change template block to the correct number.
       currentBlock.nonce = "";
-      currentBlock.created += 300;
+      currentBlock.created += 245;
       currentBlock.txids[0] = coinTxn;
       // Send Bu Payment
       // currentBlock.txids.push(paymentHash);
 
       // Include TA txn
-      currentBlock.txids[1] = taHash;
+      // currentBlock.txids[1] = taHash;
 
 
       // Format block into two strings.
