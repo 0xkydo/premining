@@ -267,7 +267,7 @@ async function getPaymentTx(height:number){
 
 setCounts(1010,5000)
 
-// getCounts();
+getCounts();
 
 
 // getTxn3ac(1004)
