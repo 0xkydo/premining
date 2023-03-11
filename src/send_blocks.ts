@@ -89,7 +89,7 @@ async function setChainTip(num: number){
     sendObject(wrapObject(tx_3ac));
     console.log(tx)
 
-    const tx_payment = await sendBUPayment(i);
+    const tx_payment = await db.get(`tbu_${i}`);
     sendObject(wrapObject(tx_payment));
 
 
@@ -114,7 +114,7 @@ async function setChainTip(num: number){
 
 
 
-  await setChainTip(1008)
+  await setChainTip(1009)
 
 
 })();
