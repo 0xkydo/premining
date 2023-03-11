@@ -128,7 +128,7 @@ const filePathAbs = path.resolve(filePath);
       currentBlock.created += 35;
       currentBlock.txids[0] = coinTxn;
       // Send Bu Payment
-      // currentBlock.txids[1] = paymentTxn;
+      currentBlock.txids.push(paymentTxn);
 
       // Include TA txn
       // currentBlock.txids[1] = TATx;

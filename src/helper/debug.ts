@@ -24,9 +24,23 @@ async function init(){
 }
 
 async function getBlock(height: number){
-  console.log(await db.get(`b_${height}`));
-  console.log(`Current Transaction: \n`+ await db.get(`t_${height}`));
+  const block = await db.get(`b_${height}`)
+  const tx = await db.get(`t_${height}`)
+  console.log(block);
+  console.log(`Current Transaction: \n`);
+  console.log(tx)
   // console.log(`Last block: \n`+await db.get(`b_${height-1}`));
+}
+
+async function getBlock3ac(height: number){
+  const block = await db.get(`b_${height}`)
+  const tx = await db.get(`t3ac_${height}`)
+  console.log(`Block at height ${height}`)
+  console.log(block);
+  console.log(`Current Transaction: \n`);
+  console.log(tx)
+  console.log(`Tx hash: ${hash(canonicalize(tx))}`)
+  console.log(`Blockhash: ${hash(canonicalize(block))}`)
 }
 
 
@@ -214,7 +228,7 @@ async function manualCheck(){
 
   var blockCount = (await db.get(`blockCount`)).value;
 
-  for(var i = 1; i<blockCount;i++){
+  for(var i = 1; i<=blockCount;i++){
     var currentBlock = await db.get(`b_${i}`)
     var currentTxn = await db.get(`t_${i}`)
 
@@ -239,13 +253,13 @@ async function manualCheck(){
 
 // getTest(500);
 
-// getBlock(668)
+getBlock3ac(1004)
 // getTxn(668)
 
 
-setCounts(1003,5000)
+// setCounts(1003,5000)
 
-getCounts();
+// getCounts();
 
 
 // getTxn3ac(1004)
