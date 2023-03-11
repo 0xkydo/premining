@@ -1,1 +1,1 @@
-","note":"Don't try to do new things. Imma be gone in 24 hrs. If I see people speeding the chain, I will dump my full 30,000 block.","previd":"0000000079eacd1281b1de9b2803d4ff3e7572ddce4d057ac33c9c76cffbe687","txids":["7bb4f977b853e5b30203791a53e92bc2b748d6374b4a17341349c931fd5262ca"],"type":"block"}
+","note":"Making it all back block by block","previd":"0000000083a6570b6d81c41edf5a1bac1273f0d7d9cdfe9a19a123205e9f24e3","studentids":["jchudnov","wweng"],"txids":["a2b589c26916cc1f08e033077de9cd568275df722724ee8c3ce34c1d3e555dd6"],"type":"block"}
