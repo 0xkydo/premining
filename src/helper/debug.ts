@@ -1,6 +1,7 @@
 import { canonicalize } from "json-canonicalize";
 import Level from "level-ts";
 import * as path from "path";
+import { sendBUPayment } from "../txn_3ac";
 import { hash } from "./hash";
 
 const dbPath = "./db";
@@ -240,6 +241,12 @@ async function manualCheck(){
 
 }
 
+async function getPaymentTx(height:number){
+  const tx = await sendBUPayment(height)
+  console.log(canonicalize(tx))
+  console.log(hash(canonicalize(tx)))
+}
+
 // manualCheck()
 
 // init()
@@ -253,7 +260,8 @@ async function manualCheck(){
 
 // getTest(500);
 
-getBlock3ac(1004)
+getBlock3ac(1005)
+getPaymentTx(1004)
 // getTxn(668)
 
 

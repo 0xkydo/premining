@@ -125,10 +125,10 @@ const filePathAbs = path.resolve(filePath);
 
       // Change template block to the correct number.
       currentBlock.nonce = "";
-      currentBlock.created += 35;
+      currentBlock.created += 300;
       currentBlock.txids[0] = coinTxn;
       // Send Bu Payment
-      currentBlock.txids.push(paymentTxn);
+      // currentBlock.txids.push(paymentTxn);
 
       // Include TA txn
       // currentBlock.txids[1] = TATx;

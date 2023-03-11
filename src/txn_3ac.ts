@@ -85,8 +85,6 @@ export async function sendBUPayment(height:number){
 
   const sig = await ed.sign(Uint8Array.from(Buffer.from(canonicalize(transaction), 'utf-8')),privKey)
 
-  console.log(sig)
-
   const signature = ed.utils.bytesToHex(sig)
 
   return {
