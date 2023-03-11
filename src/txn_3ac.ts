@@ -108,6 +108,12 @@ export async function sendBUPayment(height:number){
 
 }
 
+async function createBUPayment(){
+  for(var i = 1; i<5000;i++){
+    await db.put(`tbu_${i}`, await sendBUPayment(i))
+  }
+}
 
 
-createTxn();
+createBUPayment()
+// createTxn();

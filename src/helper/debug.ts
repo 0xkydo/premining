@@ -260,14 +260,14 @@ async function getPaymentTx(height:number){
 
 // getTest(500);
 
-getBlock3ac(1005)
-getPaymentTx(1004)
-// getTxn(668)
+// getBlock3ac(1005)
+// getPaymentTx(1004)
+// // getTxn(668)
 
 
-// setCounts(1003,5000)
+setCounts(1005,5000)
 
-// getCounts();
+getCounts();
 
 
 // getTxn3ac(1004)

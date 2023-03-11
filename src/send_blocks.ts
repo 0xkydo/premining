@@ -4,6 +4,7 @@ import path from 'path';
 import * as net from 'net'
 import { delay } from './helper/promise';
 import { hash } from './helper/hash';
+import { sendBUPayment } from './txn_3ac';
 
 const dbPath = "./db";
 const dbPathAbs = path.resolve(dbPath);
@@ -88,11 +89,15 @@ async function setChainTip(num: number){
     sendObject(wrapObject(tx_3ac));
     console.log(tx)
 
+    const tx_payment = await sendBUPayment(i);
+    sendObject(wrapObject(tx_payment));
+
+
     delay(15)
 
   }
 
-  sendObject(wrapObject({"inputs":[{"outpoint":{"index":0,"txid":"e76494b01b1432a2597304bb3e75f5dc978c0217c180a613939b5c3fad56b8f2"},"sig":"db56d103f68bd9cfa9e8505a85b8313c1af4e0b6ae2c3311c8b6ea53b258ac3262af5a3d6e2b919e6bd0ee95e47a571bb9309a570c82c3a3874a920f9b25150d"}],"outputs":[{"pubkey":"3f0bc71a375b574e4bda3ddf502fe1afd99aa020bf6049adfe525d9ad18ff33f","value":50000000000}],"type":"transaction"}))
+  
 
 }
 
@@ -109,7 +114,7 @@ async function setChainTip(num: number){
 
 
 
-  await setChainTip(1006)
+  await setChainTip(1008)
 
 
 })();
