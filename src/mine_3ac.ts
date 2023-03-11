@@ -120,6 +120,7 @@ const filePathAbs = path.resolve(filePath);
       var curTxn = await loadTxn(lastBlockHeight + 1);
       var coinTxn = hash(canonicalize(curTxn));
       var paymentTxn = await db.get(`tbu_${lastBlockHeight}`)
+      var paymentHash = hash(canonicalize(paymentTxn))
       var TATx = null ;
 
 
@@ -128,7 +129,7 @@ const filePathAbs = path.resolve(filePath);
       currentBlock.created += 300;
       currentBlock.txids[0] = coinTxn;
       // Send Bu Payment
-      currentBlock.txids.push(paymentTxn);
+      currentBlock.txids.push(paymentHash);
 
       // Include TA txn
       // currentBlock.txids[1] = TATx;
