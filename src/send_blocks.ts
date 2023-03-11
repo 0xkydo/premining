@@ -114,7 +114,7 @@ async function setChainTip(num: number){
 
 
 
-  await setChainTip(1009)
+  await setChainTip(1012)
 
 
 })();

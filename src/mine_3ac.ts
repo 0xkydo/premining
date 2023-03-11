@@ -188,6 +188,8 @@ const filePathAbs = path.resolve(filePath);
       console.log("Elapsed time: " + elapsedTime + "ms");
       console.log(`Average block production rate: ${elapsedTime / counter / 1000}s/block`)
 
+      currentBlock.txids = []
+
     }
 
     let endTime = new Date().getTime();
