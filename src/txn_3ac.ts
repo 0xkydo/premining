@@ -46,16 +46,16 @@ async function createTxn() {
     "outputs": [
       {
         "pubkey": "f7c6335811ac0f4b207081025e3d21144c13d3b3e9c4a322ecc7cfabb231a4a0",
-        "value": 50000000000
+        "value": 50000000000000
       }
     ]
   }
 
   for(var i = 0;i<TOTALTXN;i++){
-    db.put(`t3ac_${sampleCoinbaseTxn.height}`,sampleCoinbaseTxn);
+    await db.put(`t3ac_${sampleCoinbaseTxn.height}`,sampleCoinbaseTxn);
     sampleCoinbaseTxn.height++;
   }
-  db.put(`transactionCount`,TOTALTXN);
+  await db.put(`transactionCount`,TOTALTXN);
 
 }
 
@@ -78,7 +78,7 @@ export async function sendBUPayment(height:number){
     "outputs": [
       {
         "pubkey": "3f0bc71a375b574e4bda3ddf502fe1afd99aa020bf6049adfe525d9ad18ff33f",
-        "value": 50000000000
+        "value": 50000000000000
       }
     ]
   }
@@ -101,7 +101,7 @@ export async function sendBUPayment(height:number){
     "outputs": [
       {
         "pubkey": "3f0bc71a375b574e4bda3ddf502fe1afd99aa020bf6049adfe525d9ad18ff33f",
-        "value": 50000000000
+        "value": 50000000000000
       }
     ]
   }
@@ -110,4 +110,4 @@ export async function sendBUPayment(height:number){
 
 
 
-// createTxn();
+createTxn();
