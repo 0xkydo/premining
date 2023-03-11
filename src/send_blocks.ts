@@ -107,14 +107,14 @@ async function setChainTip(num: number){
   init()
 
   // // // Get object
-  getObject('00000000647ef0c8b17dc34490c83f0b29625395ea19c4f5cb5eb87ba48c6de0')
-  // getObject('cd6f6c24055d45a760282fad078520f0199b6fe3cf6f6480c72e6e84007311e0')
+  getObject('0000000055cf812e19ee2999fef99d04855b98396e90863d6f5f41150a9a698f')
+  getObject('9a92e4616fef9449633a0d45ca7b917fdad2300328850920af23cd1bfe4e3dd0')
 
  /*
 
- 1023
+ 1022
 
- {"T":"00000000abc00000000000000000000000000000000000000000000000000000","created":1678513121,"miner":"Yours truly","nonce":"8042a948aac5e884cb3ec7db925643fd34fdd467e2cca406035cb2746333f74e","note":"You better watch out, you better not cry - the best miner is here and I'm telling you why...","previd":"0000000055cf812e19ee2999fef99d04855b98396e90863d6f5f41150a9a698f","txids":["ee589a0b60fc5b6ead24ac76e6788a6ca202406156069b80cf0a32264316e6ef","cd6f6c24055d45a760282fad078520f0199b6fe3cf6f6480c72e6e84007311e0"],"type":"block"}
+{"T":"00000000abc00000000000000000000000000000000000000000000000000000","created":1678511950,"miner":"Yours truly","nonce":"09e111c7e1e7acb6f8cac0bb2fc4c8bc2ae3baaab9165cc458e199cbb4cd65f5","note":"You better watch out, you better not cry - the best miner is here and I'm telling you why...","previd":"00000000568fce17c1dc98825c434af5163a1d80b9cc28e879bb424c6530c248","txids":["9a92e4616fef9449633a0d45ca7b917fdad2300328850920af23cd1bfe4e3dd0","c9856c9f36afc6e844a3c4e03e496fbae3c9599f4a7f66e0cb186a16da5cad73"],"type":"block"}
 
  cd6f6c24055d45a760282fad078520f0199b6fe3cf6f6480c72e6e84007311e0
 
