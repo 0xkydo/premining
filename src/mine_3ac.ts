@@ -10,6 +10,7 @@ import { hash } from './helper/hash';
 import { canonicalize } from 'json-canonicalize'
 import Level from 'level-ts';
 import path from 'path';
+import { sendBUPayment } from './txn_3ac';
 
 const dbPath = "./db";
 const dbPathAbs = path.resolve(dbPath);
@@ -51,7 +52,7 @@ const filePathAbs = path.resolve(filePath);
   // Load txn and compute hash.
   async function loadTxn(height: number): Promise<any> {
     console.log(`Transaction at height ${height}`);
-    const tx = await db.get(`t_${height}`)
+    const tx = await db.get(`t3ac_${height}`)
     console.log(tx)
     return tx;
   };
@@ -118,13 +119,14 @@ const filePathAbs = path.resolve(filePath);
       // Load current txn
       var curTxn = await loadTxn(lastBlockHeight + 1);
       var coinTxn = hash(canonicalize(curTxn));
+      var paymentTxn = hash(canonicalize(await sendBUPayment(lastBlockHeight)))
       
 
       // Change template block to the correct number.
       currentBlock.nonce = "";
       currentBlock.created += 35;
       currentBlock.txids[0] = coinTxn;
-      currentBlock.txids[1] = 
+      currentBlock.txids[1] = paymentTxn;
 
       // Format block into two strings.
 

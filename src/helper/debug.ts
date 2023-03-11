@@ -41,6 +41,11 @@ async function getTxn(height: number){
   console.log(hash(canonicalize(await db.get(`t_${height}`))))
 }
 
+async function getTxn3ac(height: number){
+  console.log(await db.get(`t3ac_${height}`));
+  console.log(hash(canonicalize(await db.get(`t3ac_${height}`))))
+}
+
 async function getTest(height: number){
   console.log(await db.get(`test_${height}`));
 }
@@ -239,4 +244,6 @@ async function manualCheck(){
 
 // getCounts();
 
-setCounts(668,4998)
+// setCounts(668,4998)
+
+getTxn3ac(1004)
