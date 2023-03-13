@@ -1,1 +1,1 @@
-","previd":"0000000010570351b676931a3f68b084f3054b3fe9910ac638ca149c4b832934","txids":["15c68e58d5418c6ee25dd33253ea11e56f17e94c6493b8f753ee7011ab02c407"],"type":"block"}
+","note":"Thank you for the drama","previd":"00000000894eab5f91bf4d86136823befff221b6918e6a9445f4872a21abfbbd","studentids":["jchudnov","wweng"],"txids":["287bb4a3f353a5ac9210e9bc5edc1c4b7eeb248d38001f98895cbe97ade8bf7b"],"type":"block"}

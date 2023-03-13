@@ -1,0 +1,2691 @@
+
+> premining@1.0.0 mine4
+> ts-node src/mine.ts -mine4
+
+number
+Total transactions: 4998
+Total blocks : 167
+Starting Block Loaded
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671112500,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'b57b10483dd7ca83d5ac60f2c53fe4730d798eb926df53847b886791336b9900',
+  previd: '000000008ffaa939e004145d4f64738d5c50a2c1e984ab8079a95b5fd3754649',
+  txids: [
+    '71b96aa9cfabb6c5818a8cd46726a34c5683a0b59a178600bb83df38937388dd'
+  ],
+  type: 'block'
+}
+Transaction at height 168
+{
+  type: 'transaction',
+  height: 168,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671112800,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '61e4898306fca2222b5d50f3f5b89698bd9949389d2213bbfe23d6c995abfdf2',
+  previd: '000000002dd8ea427b2b783d6b219e86224ffedffd2c27b3acde5eb135fffd42',
+  txids: [
+    '1a9270b8dc0fd250017337e2b9b977e72cd12dfa3f7c3361fb9aca7618fb9aa7'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 168,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 168 Mined
+Hash value: 000000009738dbb6aa12769cc929e69846af246acd6dd5c168d6a7fbfe007ac0
+Nonce: 61e4898306fca2222b5d50f3f5b89698bd9949389d2213bbfe23d6c995abfdf2
+Elapsed time: 18768ms
+Average block production rate: 18.768s/block
+Transaction at height 169
+{
+  type: 'transaction',
+  height: 169,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671113100,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '9f7ffed1f39321674a36791f97a1aa6db6229a586de24db624e9a5db8bb16961',
+  previd: '000000009738dbb6aa12769cc929e69846af246acd6dd5c168d6a7fbfe007ac0',
+  txids: [
+    'f81ea45eb380dcee3fc57bc1fe5595dcb465e4feff66d5a932c46102330728e9'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 169,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 169 Mined
+Hash value: 00000000439efb7121822fa77148fc31d4965f371c10a8c5dbcdefd9305c15ff
+Nonce: 9f7ffed1f39321674a36791f97a1aa6db6229a586de24db624e9a5db8bb16961
+Elapsed time: 49914ms
+Average block production rate: 24.957s/block
+Transaction at height 170
+{
+  type: 'transaction',
+  height: 170,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671113400,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'df384fe80a4bd3ddd0674455fdf5661f414654a2d211b6063708f287872fe927',
+  previd: '00000000439efb7121822fa77148fc31d4965f371c10a8c5dbcdefd9305c15ff',
+  txids: [
+    '291d39f78b4153b1785142d70841cd60b2276c50d64624ba9d287fc02b63a4c7'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 170,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 170 Mined
+Hash value: 00000000292f763e4c712f528e89e9f944f7383e2959b1fd8519d9ed23e6f4cd
+Nonce: df384fe80a4bd3ddd0674455fdf5661f414654a2d211b6063708f287872fe927
+Elapsed time: 108811ms
+Average block production rate: 36.27033333333333s/block
+Transaction at height 171
+{
+  type: 'transaction',
+  height: 171,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671113700,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'eccf5f0b872b99108c7e293a3e71398090ff51912b87386f8f97044da0859a3c',
+  previd: '00000000292f763e4c712f528e89e9f944f7383e2959b1fd8519d9ed23e6f4cd',
+  txids: [
+    '71bf46ebb5ae425b25168df3e9438c69c2b27aabd022e8905471b337872a8a5a'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 171,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 171 Mined
+Hash value: 00000000576391bcdfc25fbd0061fceb4c6462ccf2dfec15e324e6e0de44b98f
+Nonce: eccf5f0b872b99108c7e293a3e71398090ff51912b87386f8f97044da0859a3c
+Elapsed time: 118996ms
+Average block production rate: 29.749s/block
+Transaction at height 172
+{
+  type: 'transaction',
+  height: 172,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671114000,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'b4d636f2b8d8285c4643fa51a1a8bd69d7fcc677d61a967764bf58a0761dc1f8',
+  previd: '00000000576391bcdfc25fbd0061fceb4c6462ccf2dfec15e324e6e0de44b98f',
+  txids: [
+    '2c063f5d726710ed6e93937055c54ec1485c5cb0e9b0ec14868b445f0669ff44'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 172,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 172 Mined
+Hash value: 000000001a7b1de950060e6a58b42c3cb31e3461ad2701455cc410b164dc4b6e
+Nonce: b4d636f2b8d8285c4643fa51a1a8bd69d7fcc677d61a967764bf58a0761dc1f8
+Elapsed time: 175675ms
+Average block production rate: 35.135s/block
+Transaction at height 173
+{
+  type: 'transaction',
+  height: 173,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671114300,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '0ed9d7b75843ffa44b7eafdf5433eee1494e77fde9b6ce4439b5137adeaefb34',
+  previd: '000000001a7b1de950060e6a58b42c3cb31e3461ad2701455cc410b164dc4b6e',
+  txids: [
+    '7e53aece14955a7b07c1e7b3097c281afa86480ea053a52f6e7b47a926e30149'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 173,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 173 Mined
+Hash value: 000000006479f31863f0e4cd1df67961c864a8dfdfba18df257117e10ba57715
+Nonce: 0ed9d7b75843ffa44b7eafdf5433eee1494e77fde9b6ce4439b5137adeaefb34
+Elapsed time: 191934ms
+Average block production rate: 31.989s/block
+Transaction at height 174
+{
+  type: 'transaction',
+  height: 174,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671114600,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '746a0d1f29a90c6cd4376c32908b06fa4def21b80d24207c8e85c0c011a328e6',
+  previd: '000000006479f31863f0e4cd1df67961c864a8dfdfba18df257117e10ba57715',
+  txids: [
+    'b5174907687b8cf648c96a321a20e31aeae6a253ed470ca8f04116920fa4b6a4'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 174,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 174 Mined
+Hash value: 000000008d023485fbb6cc8e20cdb65e2433ad64c14f7ed86dd3db72fe8b3a52
+Nonce: 746a0d1f29a90c6cd4376c32908b06fa4def21b80d24207c8e85c0c011a328e6
+Elapsed time: 246321ms
+Average block production rate: 35.18871428571428s/block
+Transaction at height 175
+{
+  type: 'transaction',
+  height: 175,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671114900,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '941789e5ceab5ac1bf3c0450d5318fb8bde26110bae1379c354518118bc890f1',
+  previd: '000000008d023485fbb6cc8e20cdb65e2433ad64c14f7ed86dd3db72fe8b3a52',
+  txids: [
+    '34e4f06db53947abcc6b7071fff1f594a71cfad7eaadca2543faa3f3b8307d42'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 175,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 175 Mined
+Hash value: 00000000a8eed15212954c147bea3505a1427698b550842be0fd46fab943c61e
+Nonce: 941789e5ceab5ac1bf3c0450d5318fb8bde26110bae1379c354518118bc890f1
+Elapsed time: 283253ms
+Average block production rate: 35.406625s/block
+Transaction at height 176
+{
+  type: 'transaction',
+  height: 176,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671115200,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'c304434d53ca4785ec468768f347bc6461e2030135b42f1acd831f98ff576113',
+  previd: '00000000a8eed15212954c147bea3505a1427698b550842be0fd46fab943c61e',
+  txids: [
+    '321ab8f6416fcfa27bd1c4e6ae6d19c0d50170109f983d1d8b5d78d8bbeee0cd'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 176,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 176 Mined
+Hash value: 000000003d6bd6d730550b7d8f00abaf8a8dd77d08f592ec8fd31879748348db
+Nonce: c304434d53ca4785ec468768f347bc6461e2030135b42f1acd831f98ff576113
+Elapsed time: 288439ms
+Average block production rate: 32.04877777777778s/block
+Transaction at height 177
+{
+  type: 'transaction',
+  height: 177,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671115500,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '9631f240e1fa49e6627b8893c8934e20e3acbc0972e389baabf9c59d33d83b52',
+  previd: '000000003d6bd6d730550b7d8f00abaf8a8dd77d08f592ec8fd31879748348db',
+  txids: [
+    '4f2c2a6044190880e886843c1f8f81c7326acb589b55bdc350c89ddc936bfe97'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 177,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 177 Mined
+Hash value: 000000003f5dbfe5daba98af6267566ad7f57548bf5b8af23accbc3e8a5f75ad
+Nonce: 9631f240e1fa49e6627b8893c8934e20e3acbc0972e389baabf9c59d33d83b52
+Elapsed time: 303777ms
+Average block production rate: 30.3777s/block
+Transaction at height 178
+{
+  type: 'transaction',
+  height: 178,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671115800,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'a5598dbf15312a168caca1c720912a92abed14c92becac82d7d75e6b657859e3',
+  previd: '000000003f5dbfe5daba98af6267566ad7f57548bf5b8af23accbc3e8a5f75ad',
+  txids: [
+    '363078df1a95b04bd9548ca19d4532e56dbc06b8e674112ece58c54f8dc74f68'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 178,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 178 Mined
+Hash value: 00000000018e973199d1e09251a68b937c2322e84c915bf46e62de0158c76b09
+Nonce: a5598dbf15312a168caca1c720912a92abed14c92becac82d7d75e6b657859e3
+Elapsed time: 311572ms
+Average block production rate: 28.324727272727273s/block
+Transaction at height 179
+{
+  type: 'transaction',
+  height: 179,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671116100,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'e4b159392ae0ca1bff7e857ea4f852c675ac1797d0bc7219d20e82d8e8acf263',
+  previd: '00000000018e973199d1e09251a68b937c2322e84c915bf46e62de0158c76b09',
+  txids: [
+    '2b247053ff7f74873c9fa4a5c322747927089a92acf049fcfdfa60ee2ba83de6'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 179,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 179 Mined
+Hash value: 000000006c2cd235ab5224eb77bf9b7d6d367bc32895fe4e9357d44dfb3748f2
+Nonce: e4b159392ae0ca1bff7e857ea4f852c675ac1797d0bc7219d20e82d8e8acf263
+Elapsed time: 315637ms
+Average block production rate: 26.303083333333333s/block
+Transaction at height 180
+{
+  type: 'transaction',
+  height: 180,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671116400,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '37beaeb671e318ea9776b9815306c24235ba1a3d050ca6aefc6eb5a95df9a16d',
+  previd: '000000006c2cd235ab5224eb77bf9b7d6d367bc32895fe4e9357d44dfb3748f2',
+  txids: [
+    '55d79260acb11c7af729184f05bb7fae6c007d350f91ae5c41303aa9fc257431'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 180,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 180 Mined
+Hash value: 000000006a4c7fec4b3592b0ad474266abd086cf0bc91d7041dc9a40b412910c
+Nonce: 37beaeb671e318ea9776b9815306c24235ba1a3d050ca6aefc6eb5a95df9a16d
+Elapsed time: 339356ms
+Average block production rate: 26.104307692307692s/block
+Transaction at height 181
+{
+  type: 'transaction',
+  height: 181,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671116700,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '4156a1b03dfed949e347080967bed0ccc2735d96588464ee868989d9f1b83d5f',
+  previd: '000000006a4c7fec4b3592b0ad474266abd086cf0bc91d7041dc9a40b412910c',
+  txids: [
+    'a2bf03edb1a1c02f1d4270096c34abed9015f676b81c0523ee4f0402bfc9c502'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 181,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 181 Mined
+Hash value: 0000000083113a1029328f6578b8c9548dacc9a1a8e3007648bd689a4e4e7424
+Nonce: 4156a1b03dfed949e347080967bed0ccc2735d96588464ee868989d9f1b83d5f
+Elapsed time: 349495ms
+Average block production rate: 24.96392857142857s/block
+Transaction at height 182
+{
+  type: 'transaction',
+  height: 182,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671117000,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '6d95b363e32c784ac6cf1e63fc38ebe28e08f0ec1a65e3e1d689086bdc604283',
+  previd: '0000000083113a1029328f6578b8c9548dacc9a1a8e3007648bd689a4e4e7424',
+  txids: [
+    'b23269514d50f95b586409bc900e136b4bc497187f1484c6c7a70a2460dd524f'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 182,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 182 Mined
+Hash value: 0000000038cc3a73756361bea0fc23f9cf03a7eedf702ad6276900c624a0ffd9
+Nonce: 6d95b363e32c784ac6cf1e63fc38ebe28e08f0ec1a65e3e1d689086bdc604283
+Elapsed time: 357448ms
+Average block production rate: 23.829866666666664s/block
+Transaction at height 183
+{
+  type: 'transaction',
+  height: 183,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671117300,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'c35f4af0a9b0ae770a86bc57e92daef03c05cb4dc25247050b3b734711694903',
+  previd: '0000000038cc3a73756361bea0fc23f9cf03a7eedf702ad6276900c624a0ffd9',
+  txids: [
+    '10fc9a34237eb45e131d758257069c360163d0e468103fca96c7d706c515634c'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 183,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 183 Mined
+Hash value: 00000000125e1ed77581b8cd0f832cc5d042d58159d25203cc29076d128e4c3e
+Nonce: c35f4af0a9b0ae770a86bc57e92daef03c05cb4dc25247050b3b734711694903
+Elapsed time: 372581ms
+Average block production rate: 23.2863125s/block
+Transaction at height 184
+{
+  type: 'transaction',
+  height: 184,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671117600,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'c0e6b5a4c10709f952edbf2528b025ead1daf4cbf704373c5c1eb6d46997544a',
+  previd: '00000000125e1ed77581b8cd0f832cc5d042d58159d25203cc29076d128e4c3e',
+  txids: [
+    '009904d8f0aaed62750c4865f7445d043ebd8e19a8b99151463aa0d9a265c9ee'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 184,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 184 Mined
+Hash value: 00000000614e2cf6c118b64c4711be757a18fe3ccc856b3867c9a09f6615ca67
+Nonce: c0e6b5a4c10709f952edbf2528b025ead1daf4cbf704373c5c1eb6d46997544a
+Elapsed time: 376771ms
+Average block production rate: 22.163s/block
+Transaction at height 185
+{
+  type: 'transaction',
+  height: 185,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671117900,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '42c500ab8418a49f9c9c0a3484eba4caae7d4f7e647cb5ca85e00bcbca54c811',
+  previd: '00000000614e2cf6c118b64c4711be757a18fe3ccc856b3867c9a09f6615ca67',
+  txids: [
+    'ba7543557f867ede728b9838ea58372fe22f4b95d5d758a4eab9f6ea95ce4f53'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 185,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 185 Mined
+Hash value: 00000000336e7785a2da2ab9add10c76103399463d94078ebe3c8ae558ab303b
+Nonce: 42c500ab8418a49f9c9c0a3484eba4caae7d4f7e647cb5ca85e00bcbca54c811
+Elapsed time: 397926ms
+Average block production rate: 22.107s/block
+Transaction at height 186
+{
+  type: 'transaction',
+  height: 186,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671118200,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '7f04f20d2edb1df7c90e8fb892951cc6e91782db5f45714944fa6d6374a5eb01',
+  previd: '00000000336e7785a2da2ab9add10c76103399463d94078ebe3c8ae558ab303b',
+  txids: [
+    'ddfb0c6b6f81e935e29a26a2992901bed9e52de79d4b1cc0abbbe5bf9969198f'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 186,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 186 Mined
+Hash value: 000000005ee3519a1b9b21f71536415c096d4f3160de26158814c8954cc6d1c2
+Nonce: 7f04f20d2edb1df7c90e8fb892951cc6e91782db5f45714944fa6d6374a5eb01
+Elapsed time: 408983ms
+Average block production rate: 21.52542105263158s/block
+Transaction at height 187
+{
+  type: 'transaction',
+  height: 187,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671118500,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '4934437abc7d22f664dc3f50ee1537210771699f9cf40fe9f6e3daed78417d30',
+  previd: '000000005ee3519a1b9b21f71536415c096d4f3160de26158814c8954cc6d1c2',
+  txids: [
+    '02c374dff66b151af32bee43e7657d8ce026a9a91aef7cd7c8ee2cb90c84cab7'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 187,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 187 Mined
+Hash value: 0000000091f243483c5d31c2b0ce3d68d2d0cceab7d16411b9322258748ffd4f
+Nonce: 4934437abc7d22f664dc3f50ee1537210771699f9cf40fe9f6e3daed78417d30
+Elapsed time: 425848ms
+Average block production rate: 21.2924s/block
+Transaction at height 188
+{
+  type: 'transaction',
+  height: 188,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671118800,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '3851d821f687c0d9e30f3d151e9ead4ac895be99cdfe4a8d8caa699f5f441659',
+  previd: '0000000091f243483c5d31c2b0ce3d68d2d0cceab7d16411b9322258748ffd4f',
+  txids: [
+    '5fcdcc7e6f013788e42794de7e377b9f281078cfd00b2a8d6b1a6cf6f375df43'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 188,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 188 Mined
+Hash value: 00000000065ba320ad111741f52dc470f216b1f3b7c8aa87ecd9f834cbe69176
+Nonce: 3851d821f687c0d9e30f3d151e9ead4ac895be99cdfe4a8d8caa699f5f441659
+Elapsed time: 430034ms
+Average block production rate: 20.477809523809523s/block
+Transaction at height 189
+{
+  type: 'transaction',
+  height: 189,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671119100,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '2d4b74c0eeea5a2ac6fc5ff1293d3d32cdc833600798f5308bbdffd5e40cdbff',
+  previd: '00000000065ba320ad111741f52dc470f216b1f3b7c8aa87ecd9f834cbe69176',
+  txids: [
+    'd8be35f3af591641e14d9c9440f56c88cc1cb96e465bb7024dca98a1c58fe6bd'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 189,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 189 Mined
+Hash value: 000000000a02bb4d479fde71cf481f67e510b6298169632e018f98be9ef9c93c
+Nonce: 2d4b74c0eeea5a2ac6fc5ff1293d3d32cdc833600798f5308bbdffd5e40cdbff
+Elapsed time: 457143ms
+Average block production rate: 20.779227272727272s/block
+Transaction at height 190
+{
+  type: 'transaction',
+  height: 190,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671119400,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '90aaac9d0c1bf5e1c4a6dfba834aefd8979f017af10941548db5868b8f263e5d',
+  previd: '000000000a02bb4d479fde71cf481f67e510b6298169632e018f98be9ef9c93c',
+  txids: [
+    'dd2bd7f13d65285595c7abf885500e3b1db697a0e113da7488b683bbde6954f8'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 190,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 190 Mined
+Hash value: 000000006e37972f0be766ba24e79eea40e24f29d901c405f18fc7761fc370a1
+Nonce: 90aaac9d0c1bf5e1c4a6dfba834aefd8979f017af10941548db5868b8f263e5d
+Elapsed time: 537014ms
+Average block production rate: 23.348434782608695s/block
+Transaction at height 191
+{
+  type: 'transaction',
+  height: 191,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671119700,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '4b07fd4699a130d68e346b78b7e85ba3cde2e28aafdf90b863a82c2811a3dc23',
+  previd: '000000006e37972f0be766ba24e79eea40e24f29d901c405f18fc7761fc370a1',
+  txids: [
+    '15f57fe37887cc8bc6ab949fd63aa448aa1c13b496f3bc619cb6540bf6cfbbc0'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 191,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 191 Mined
+Hash value: 0000000039726da28be766a353882e6e5181784547e1e6fc1e8b9fff78448c61
+Nonce: 4b07fd4699a130d68e346b78b7e85ba3cde2e28aafdf90b863a82c2811a3dc23
+Elapsed time: 596247ms
+Average block production rate: 24.843625s/block
+Transaction at height 192
+{
+  type: 'transaction',
+  height: 192,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671120000,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'c1f727528ea63844e2d11f058e6936737948839da694866f8fa21a4877667f75',
+  previd: '0000000039726da28be766a353882e6e5181784547e1e6fc1e8b9fff78448c61',
+  txids: [
+    '9f834fff503ab2d6fafbdaa9eb532b45b8b3677704fc34806b2a4b947b8d528c'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 192,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 192 Mined
+Hash value: 000000004e4c5edd764102f1a4965f8bd909ea9f0a58ae645ab1e74a37983e8e
+Nonce: c1f727528ea63844e2d11f058e6936737948839da694866f8fa21a4877667f75
+Elapsed time: 604856ms
+Average block production rate: 24.19424s/block
+Transaction at height 193
+{
+  type: 'transaction',
+  height: 193,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671120300,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '8185dd5acce5ffe346912359924c5b459dbfd3acb6b36f3cf7a403ec24221682',
+  previd: '000000004e4c5edd764102f1a4965f8bd909ea9f0a58ae645ab1e74a37983e8e',
+  txids: [
+    '66ac7f650309563e927e1fd9f598aafc68da3444a5649f2888ec2b464da6565c'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 193,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 193 Mined
+Hash value: 0000000015da1582a3ffec9d993e1445e21771ab4fc88f54010c9da0bf5fcf77
+Nonce: 8185dd5acce5ffe346912359924c5b459dbfd3acb6b36f3cf7a403ec24221682
+Elapsed time: 610835ms
+Average block production rate: 23.493653846153848s/block
+Transaction at height 194
+{
+  type: 'transaction',
+  height: 194,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671120600,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '28301b615235fe3de172897f5b9ee1756f13558a67e30edce3065915a399620c',
+  previd: '0000000015da1582a3ffec9d993e1445e21771ab4fc88f54010c9da0bf5fcf77',
+  txids: [
+    'b3ba86573c3ec112250dd3e3cf8ea57a202493f4550e4f5430a9eb121bc29d42'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 194,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 194 Mined
+Hash value: 000000006f7933a841ed215c9c54a562f5d212fb622e3ec09c7eb3a1660e525d
+Nonce: 28301b615235fe3de172897f5b9ee1756f13558a67e30edce3065915a399620c
+Elapsed time: 612620ms
+Average block production rate: 22.689629629629632s/block
+Transaction at height 195
+{
+  type: 'transaction',
+  height: 195,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671120900,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'fc36c091a5ab5118c1a2c4585b9e92751656eb0672a4a8c28a3239eb3db752d4',
+  previd: '000000006f7933a841ed215c9c54a562f5d212fb622e3ec09c7eb3a1660e525d',
+  txids: [
+    'ae051cb10c129aadeb3b81b3ae764775e18bf1f46603ed9b9e77e09fa265598c'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 195,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 195 Mined
+Hash value: 00000000a7624e19bf1c89adc6ff3370333b750561382778f6b9c653f11bafb9
+Nonce: fc36c091a5ab5118c1a2c4585b9e92751656eb0672a4a8c28a3239eb3db752d4
+Elapsed time: 616005ms
+Average block production rate: 22.000178571428574s/block
+Transaction at height 196
+{
+  type: 'transaction',
+  height: 196,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671121200,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '77c16d7ccba8651bdd38c88d70f7db1be556f0ec89bca9d02f15bc74c9b13eb4',
+  previd: '00000000a7624e19bf1c89adc6ff3370333b750561382778f6b9c653f11bafb9',
+  txids: [
+    '6e42b5df25e5e2f390a95e69ddbededb2dde302d7cb107d6e2604e811d58e7cd'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 196,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 196 Mined
+Hash value: 000000001bfb88020e89da7154a33c923d36e75eeba7bee3e12f811bb28b2ecc
+Nonce: 77c16d7ccba8651bdd38c88d70f7db1be556f0ec89bca9d02f15bc74c9b13eb4
+Elapsed time: 650657ms
+Average block production rate: 22.43644827586207s/block
+Transaction at height 197
+{
+  type: 'transaction',
+  height: 197,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671121500,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '1180dacfb0eef85dbd351b8c001dc1f6c2e12401258a9743a2e0e625d5545d1d',
+  previd: '000000001bfb88020e89da7154a33c923d36e75eeba7bee3e12f811bb28b2ecc',
+  txids: [
+    'c655fe7057e9dd7d044de52cc3c3b3fab9efd970f34924a0f935e5921f4b7b51'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 197,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 197 Mined
+Hash value: 000000005a1c36ab5d5eeed1731dca55ccfc3431dc737255ee42fac7261d75ef
+Nonce: 1180dacfb0eef85dbd351b8c001dc1f6c2e12401258a9743a2e0e625d5545d1d
+Elapsed time: 657504ms
+Average block production rate: 21.9168s/block
+Transaction at height 198
+{
+  type: 'transaction',
+  height: 198,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671121800,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '51fc8d8eb70291aa4cb4599f66de9d669451ff79c97421da036a23a56d50f58d',
+  previd: '000000005a1c36ab5d5eeed1731dca55ccfc3431dc737255ee42fac7261d75ef',
+  txids: [
+    '74c09550bd8464864f51605e1b7c304e16727e5adfd7b9add956a80bc80e1ccf'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 198,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 198 Mined
+Hash value: 0000000042d6ec4d0ffb1c21b3b38a7083010deeb79d11f49f4cdf6e1ad48c72
+Nonce: 51fc8d8eb70291aa4cb4599f66de9d669451ff79c97421da036a23a56d50f58d
+Elapsed time: 747168ms
+Average block production rate: 24.1021935483871s/block
+Transaction at height 199
+{
+  type: 'transaction',
+  height: 199,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671122100,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'f48e7479d5e151f70eccd7094257f18d39189701e27a74b759739d91ea35b7bd',
+  previd: '0000000042d6ec4d0ffb1c21b3b38a7083010deeb79d11f49f4cdf6e1ad48c72',
+  txids: [
+    'ba9969ac13c67ee7eb1e08e882c3177e05bd8799bd90a3085f275dd0bf6c835b'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 199,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 199 Mined
+Hash value: 00000000452a5e964c7fc227ab0b07f7e1d09864c163fb6d42c8ff10f69ec02b
+Nonce: f48e7479d5e151f70eccd7094257f18d39189701e27a74b759739d91ea35b7bd
+Elapsed time: 764824ms
+Average block production rate: 23.90075s/block
+Transaction at height 200
+{
+  type: 'transaction',
+  height: 200,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671122400,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '51726bac239cf0b55ea4b30691984a59ea48938587bbd2f73a4acba52c08d493',
+  previd: '00000000452a5e964c7fc227ab0b07f7e1d09864c163fb6d42c8ff10f69ec02b',
+  txids: [
+    '8eb4b93f66df08c0d8e617c785cdaf1c14af54ceea27a58088e4a4af680f626f'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 200,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 200 Mined
+Hash value: 00000000a45b7c9c790ee6087598581bad78c2302bcfcf072caa9a7b159a448c
+Nonce: 51726bac239cf0b55ea4b30691984a59ea48938587bbd2f73a4acba52c08d493
+Elapsed time: 778624ms
+Average block production rate: 23.59466666666667s/block
+Transaction at height 201
+{
+  type: 'transaction',
+  height: 201,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671122700,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'a7384fb89fa986531c4aeb35c94fac3328ff55e54c1692eff2c49349d0650646',
+  previd: '00000000a45b7c9c790ee6087598581bad78c2302bcfcf072caa9a7b159a448c',
+  txids: [
+    '2604d3594faa9cd3aab6a2406cc347829e45bcb3895abcc78242178db1238cfa'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 201,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 201 Mined
+Hash value: 00000000784e94fc815f9e2cae2c131758ef1b4617c5e210622cc1510f3466ce
+Nonce: a7384fb89fa986531c4aeb35c94fac3328ff55e54c1692eff2c49349d0650646
+Elapsed time: 787817ms
+Average block production rate: 23.171088235294118s/block
+Transaction at height 202
+{
+  type: 'transaction',
+  height: 202,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671123000,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'a335af2d8e206bc029d9eaf60c1e14d429b6b9198b1ce7f78838c319410a3ccb',
+  previd: '00000000784e94fc815f9e2cae2c131758ef1b4617c5e210622cc1510f3466ce',
+  txids: [
+    '507c0452cb15627b4bdddd68446979f8329645080c14dfa33be9fe7b146b78b3'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 202,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 202 Mined
+Hash value: 000000004819422a5bb7507087d21fc9a760682fc22ad356d63eff4709e6e032
+Nonce: a335af2d8e206bc029d9eaf60c1e14d429b6b9198b1ce7f78838c319410a3ccb
+Elapsed time: 798903ms
+Average block production rate: 22.8258s/block
+Transaction at height 203
+{
+  type: 'transaction',
+  height: 203,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671123300,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '9058283ca80fdcec2ed83e6a445304bab3ef6619217a643cadcdd969d83cf89f',
+  previd: '000000004819422a5bb7507087d21fc9a760682fc22ad356d63eff4709e6e032',
+  txids: [
+    '28d9a9de8900ec65b7ebc556fbb5d1e936e2a8c3e937cb30dcbc4cfee48be617'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 203,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 203 Mined
+Hash value: 000000003785b3ad7131ef0bce0df088d02c81f8446d45d53345dc959ce36876
+Nonce: 9058283ca80fdcec2ed83e6a445304bab3ef6619217a643cadcdd969d83cf89f
+Elapsed time: 803928ms
+Average block production rate: 22.331333333333333s/block
+Transaction at height 204
+{
+  type: 'transaction',
+  height: 204,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671123600,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '67d8a66c39f2d7fca1106665c4151df695c203e60081d9d851739f77255587e1',
+  previd: '000000003785b3ad7131ef0bce0df088d02c81f8446d45d53345dc959ce36876',
+  txids: [
+    '247ba142b0a5f29e073e7d417fe2d5e6256afb3bf2d3cfc5e74ca48681936f0e'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 204,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 204 Mined
+Hash value: 000000008bfa400fb4281169167a60a5b8891a7662796bd66e4f18f25fe260b1
+Nonce: 67d8a66c39f2d7fca1106665c4151df695c203e60081d9d851739f77255587e1
+Elapsed time: 805605ms
+Average block production rate: 21.773108108108108s/block
+Transaction at height 205
+{
+  type: 'transaction',
+  height: 205,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671123900,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'f48e561f69b25ead2b97fa30d477ce4796b5a63a51f83ff408a9d39aad7b7927',
+  previd: '000000008bfa400fb4281169167a60a5b8891a7662796bd66e4f18f25fe260b1',
+  txids: [
+    'ff62bdacd05c140cc68ddeec7b7d6631c14c501523fdfbbfc88b6fbcaaf1adb2'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 205,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 205 Mined
+Hash value: 000000002afc65845a2e7e5e81590e0618146de2d20a95bbeb52c37e60ffd075
+Nonce: f48e561f69b25ead2b97fa30d477ce4796b5a63a51f83ff408a9d39aad7b7927
+Elapsed time: 812476ms
+Average block production rate: 21.380947368421054s/block
+Transaction at height 206
+{
+  type: 'transaction',
+  height: 206,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671124200,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '5e31b7da470634418e6ee39aa5fde7f9975854ba074474ecfdb742056badbe9b',
+  previd: '000000002afc65845a2e7e5e81590e0618146de2d20a95bbeb52c37e60ffd075',
+  txids: [
+    'db2ba071ce979c93732049853d05ce9501eb635275ce50549f21c47767ac08cd'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 206,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 206 Mined
+Hash value: 0000000005c076e790a0e0e48e28f1dce7348ab227d7c2d0c2fedd641143ced1
+Nonce: 5e31b7da470634418e6ee39aa5fde7f9975854ba074474ecfdb742056badbe9b
+Elapsed time: 820239ms
+Average block production rate: 21.031769230769232s/block
+Transaction at height 207
+{
+  type: 'transaction',
+  height: 207,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671124500,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'cff6c2bf2b379116c0d3964e4fdadcc105312d05036df9ce47c64a9d293318a1',
+  previd: '0000000005c076e790a0e0e48e28f1dce7348ab227d7c2d0c2fedd641143ced1',
+  txids: [
+    '59808835b1a9ccbcacf28c789da2cf47ddb17c214496a75ddeb36ffbf7d7d3df'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 207,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 207 Mined
+Hash value: 000000003de39e1cccafe3e7a374ea4c5292a7528a34f609ca8602bd41628a2e
+Nonce: cff6c2bf2b379116c0d3964e4fdadcc105312d05036df9ce47c64a9d293318a1
+Elapsed time: 848315ms
+Average block production rate: 21.207875s/block
+Transaction at height 208
+{
+  type: 'transaction',
+  height: 208,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671124800,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '153a78fbed14543f7b9cdc8a57fbcb414a99c1f9501fea2578e7b78b29f4a89a',
+  previd: '000000003de39e1cccafe3e7a374ea4c5292a7528a34f609ca8602bd41628a2e',
+  txids: [
+    'aa3209179c7a06076d788e19165760b460752e8037c19d6e568e810f92e2243d'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 208,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 208 Mined
+Hash value: 0000000057d0255ee790897e90634348ac896a3a06e94e690ba9a5f62983189c
+Nonce: 153a78fbed14543f7b9cdc8a57fbcb414a99c1f9501fea2578e7b78b29f4a89a
+Elapsed time: 885571ms
+Average block production rate: 21.59929268292683s/block
+Transaction at height 209
+{
+  type: 'transaction',
+  height: 209,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671125100,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'c15ce8ef797f26b0c49c66d3aa76b412e0addc037fcbedfbb645b53c5fc0afa2',
+  previd: '0000000057d0255ee790897e90634348ac896a3a06e94e690ba9a5f62983189c',
+  txids: [
+    '866af6492e0abf074396e2c2089a9cf9373238b2067ae8f67e1d8b6f829225dc'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 209,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 209 Mined
+Hash value: 00000000768d1414aba3f88158643e835e6754b59b366278fb7117d357a9ca5b
+Nonce: c15ce8ef797f26b0c49c66d3aa76b412e0addc037fcbedfbb645b53c5fc0afa2
+Elapsed time: 900831ms
+Average block production rate: 21.44835714285714s/block
+Transaction at height 210
+{
+  type: 'transaction',
+  height: 210,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671125400,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'e0d644fe028619b0d3faccfc0fad69ffefb0b4c84618f79244a3447fbdbd8d2b',
+  previd: '00000000768d1414aba3f88158643e835e6754b59b366278fb7117d357a9ca5b',
+  txids: [
+    'd53b375c6739ec7972993c1b0475da019457af10773c37a99f4af00e58671a90'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 210,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 210 Mined
+Hash value: 000000005989c712b26cc1be02b4d6ee067944b5cd037cd4c4ff91ddd310d1d3
+Nonce: e0d644fe028619b0d3faccfc0fad69ffefb0b4c84618f79244a3447fbdbd8d2b
+Elapsed time: 933092ms
+Average block production rate: 21.69981395348837s/block
+Transaction at height 211
+{
+  type: 'transaction',
+  height: 211,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671125700,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '254f6c636aed27ccad20401c726f74c48e16b5de7723223a786877cf70016629',
+  previd: '000000005989c712b26cc1be02b4d6ee067944b5cd037cd4c4ff91ddd310d1d3',
+  txids: [
+    'e613e69ebb143fb77c2aa1071609b2b3fe976254899e1542d10726b3a7ce7b91'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 211,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 211 Mined
+Hash value: 00000000070776af991ecb413090aaeb8b6f9241794c132d38de89368338c178
+Nonce: 254f6c636aed27ccad20401c726f74c48e16b5de7723223a786877cf70016629
+Elapsed time: 982204ms
+Average block production rate: 22.32281818181818s/block
+Transaction at height 212
+{
+  type: 'transaction',
+  height: 212,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671126000,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'aedf22ff24c2191c33facada2184a95771eca6bb151bbe62e302ca1372b6d888',
+  previd: '00000000070776af991ecb413090aaeb8b6f9241794c132d38de89368338c178',
+  txids: [
+    'bcdf2dd518f49c5b101eb32fcdb15229935fa9d8575d1139795a5556bbe22f62'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 212,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 212 Mined
+Hash value: 0000000041f6910f4513d1e5082aaa680f331517f9555bce02b5a19e2d6849a1
+Nonce: aedf22ff24c2191c33facada2184a95771eca6bb151bbe62e302ca1372b6d888
+Elapsed time: 1008543ms
+Average block production rate: 22.412066666666664s/block
+Transaction at height 213
+{
+  type: 'transaction',
+  height: 213,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671126300,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'ac236718d8fa072ba6f289442df0203abcb6cd4f6b3d7eea46c056e9ca7deb5b',
+  previd: '0000000041f6910f4513d1e5082aaa680f331517f9555bce02b5a19e2d6849a1',
+  txids: [
+    '553ba451459f118bf035b812dd36728aee780f9c20644c27fed98fc5c8a56bb8'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 213,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 213 Mined
+Hash value: 0000000026b29a3e0f97c0306cf6759149e4cb7011680dddc44688214bb9dbe2
+Nonce: ac236718d8fa072ba6f289442df0203abcb6cd4f6b3d7eea46c056e9ca7deb5b
+Elapsed time: 1028086ms
+Average block production rate: 22.349695652173914s/block
+Transaction at height 214
+{
+  type: 'transaction',
+  height: 214,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671126600,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '7ca56baf4dcce37cfec7caf7cbb3ae338f91c6f591b9568eb25938b09a01395e',
+  previd: '0000000026b29a3e0f97c0306cf6759149e4cb7011680dddc44688214bb9dbe2',
+  txids: [
+    '1c880be9ae5c2b25900af357ed7cd2612ba96a2066f4f2d9edb0ae73f7d72003'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 214,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 214 Mined
+Hash value: 0000000044079ed2902825c8a2100088d400f6509f33511b047a9f142dcd76e5
+Nonce: 7ca56baf4dcce37cfec7caf7cbb3ae338f91c6f591b9568eb25938b09a01395e
+Elapsed time: 1064584ms
+Average block production rate: 22.65072340425532s/block
+Transaction at height 215
+{
+  type: 'transaction',
+  height: 215,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671126900,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '77f85255b51bfadd88cb5faf7050213ff1e8a46283b926e102f30ef16683dd4c',
+  previd: '0000000044079ed2902825c8a2100088d400f6509f33511b047a9f142dcd76e5',
+  txids: [
+    'e2cc816454dea1e0f8a7f7f7aef72e60160275b7cf0bed054eb4c4b12ab4937c'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 215,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 215 Mined
+Hash value: 00000000903f3de4f0ec7688f0c3969527f82903bf6cdd6aac44a8efebdf96ac
+Nonce: 77f85255b51bfadd88cb5faf7050213ff1e8a46283b926e102f30ef16683dd4c
+Elapsed time: 1067897ms
+Average block production rate: 22.247854166666666s/block
+Transaction at height 216
+{
+  type: 'transaction',
+  height: 216,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671127200,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '6ea68a6482b3a7d32cb5485318a69a65de56c451474e8eb419ae27e5a455df75',
+  previd: '00000000903f3de4f0ec7688f0c3969527f82903bf6cdd6aac44a8efebdf96ac',
+  txids: [
+    '82c7a92b012616f1913c03a767dcb25f291ac2d743a3223a3fd0f455409f0f37'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 216,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 216 Mined
+Hash value: 00000000a1d9c9198212b904f2d7d1de92bc189db5e14a6f44d1a052ba708161
+Nonce: 6ea68a6482b3a7d32cb5485318a69a65de56c451474e8eb419ae27e5a455df75
+Elapsed time: 1081662ms
+Average block production rate: 22.074734693877552s/block
+Transaction at height 217
+{
+  type: 'transaction',
+  height: 217,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671127500,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'cbcac5d3f0d161c398b79204da825f0c8d2e5f3c845b41e9234dad1a8775b409',
+  previd: '00000000a1d9c9198212b904f2d7d1de92bc189db5e14a6f44d1a052ba708161',
+  txids: [
+    '6fc1b0484c80f2adf75daf9c1de77f9d24d77353b6fe1716aed883c59c02c42a'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 217,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 217 Mined
+Hash value: 0000000024a833db225240118ffbd1548c0a59213885e8d52f98208ac2f0904b
+Nonce: cbcac5d3f0d161c398b79204da825f0c8d2e5f3c845b41e9234dad1a8775b409
+Elapsed time: 1091062ms
+Average block production rate: 21.821240000000003s/block
+Transaction at height 218
+{
+  type: 'transaction',
+  height: 218,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671127800,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'f939d7b3074ed72cced3262f4a322fcd9e7df32406dbb60413103814d7ae6a8c',
+  previd: '0000000024a833db225240118ffbd1548c0a59213885e8d52f98208ac2f0904b',
+  txids: [
+    'fcbe98a8608927dbcb922142cd795203abf1961d2b6d84ab2aaca394069371e6'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 218,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 218 Mined
+Hash value: 000000000823658214e9bed70ef4a3ecec3c45d1a31aba5b56fd7336951a88d3
+Nonce: f939d7b3074ed72cced3262f4a322fcd9e7df32406dbb60413103814d7ae6a8c
+Elapsed time: 1106269ms
+Average block production rate: 21.69154901960784s/block
+Transaction at height 219
+{
+  type: 'transaction',
+  height: 219,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671128100,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'fcdd2921838b7609a5e6f4b1be2aa1e6ab373337ab9b558fe36a64cd6f30e725',
+  previd: '000000000823658214e9bed70ef4a3ecec3c45d1a31aba5b56fd7336951a88d3',
+  txids: [
+    '4dedd35196ed2a447b7ef362a96c92e923f47bacf3918d5fa9be656dbd371b43'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 219,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 219 Mined
+Hash value: 00000000913851039625549a7a3aa888c98d162e4bc5e85a7d917d9641466fb6
+Nonce: fcdd2921838b7609a5e6f4b1be2aa1e6ab373337ab9b558fe36a64cd6f30e725
+Elapsed time: 1110494ms
+Average block production rate: 21.355653846153846s/block
+Transaction at height 220
+{
+  type: 'transaction',
+  height: 220,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671128400,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'f221611e8fed1fbd065c8f28f883f4aaf847d2dc1af237f79929b9e61548608a',
+  previd: '00000000913851039625549a7a3aa888c98d162e4bc5e85a7d917d9641466fb6',
+  txids: [
+    'b7150f3efc19d94841f0abb7734022f1284bc780c14a0492042c80bfab1679c3'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 220,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 220 Mined
+Hash value: 000000009c4113de98ad1eb87b4d9e1754b70c401378210214edaf8e1ad6313d
+Nonce: f221611e8fed1fbd065c8f28f883f4aaf847d2dc1af237f79929b9e61548608a
+Elapsed time: 1120588ms
+Average block production rate: 21.143169811320753s/block
+Transaction at height 221
+{
+  type: 'transaction',
+  height: 221,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671128700,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '97107be189a0ea344d5ce40fa41d2936f3b30b527aa1a48a67ecc6993cfaeebd',
+  previd: '000000009c4113de98ad1eb87b4d9e1754b70c401378210214edaf8e1ad6313d',
+  txids: [
+    '22c83b7a28cbc098b60dbbaf1fb0742cb370023ccc4640488f0dcecdeab5acf4'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 221,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 221 Mined
+Hash value: 000000001f7d18f011ff936c2e59f4f481eb563431e29140c14d0c6b6dc4eb51
+Nonce: 97107be189a0ea344d5ce40fa41d2936f3b30b527aa1a48a67ecc6993cfaeebd
+Elapsed time: 1148155ms
+Average block production rate: 21.26212962962963s/block
+Transaction at height 222
+{
+  type: 'transaction',
+  height: 222,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671129000,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '8fb16862b42fe8a847f3324e2e8b003ae0d8b2c2f1eb7869cbcdf137c21a5e7e',
+  previd: '000000001f7d18f011ff936c2e59f4f481eb563431e29140c14d0c6b6dc4eb51',
+  txids: [
+    '5403253b7ff9ac4fb8eec0b9f7f8244c2dc5189b798ada5c41d5e00f0d54d918'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 222,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 222 Mined
+Hash value: 00000000a672acc2e822f3b11bee69ac56576f5b2989889641384e650f2ddccc
+Nonce: 8fb16862b42fe8a847f3324e2e8b003ae0d8b2c2f1eb7869cbcdf137c21a5e7e
+Elapsed time: 1174507ms
+Average block production rate: 21.354672727272725s/block
+Transaction at height 223
+{
+  type: 'transaction',
+  height: 223,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671129300,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '59603a502892494410594049edb2960c53d0bccadfc0ff9eb8256ae954e56b8a',
+  previd: '00000000a672acc2e822f3b11bee69ac56576f5b2989889641384e650f2ddccc',
+  txids: [
+    '8af3ed2c3db4668847f5cf8fb748dc9ff6d9f3ba4d2e71f543f63528dba66a1e'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 223,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 223 Mined
+Hash value: 00000000969b17e096d5f9c3793cac2d117a92ae940d57f055f315ecf333d0a5
+Nonce: 59603a502892494410594049edb2960c53d0bccadfc0ff9eb8256ae954e56b8a
+Elapsed time: 1185409ms
+Average block production rate: 21.168017857142857s/block
+Transaction at height 224
+{
+  type: 'transaction',
+  height: 224,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671129600,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '3ef7184bcfcc197075d58506ea72db68af48b402aaa1025808f8dc8aea424be4',
+  previd: '00000000969b17e096d5f9c3793cac2d117a92ae940d57f055f315ecf333d0a5',
+  txids: [
+    '19664401575e012ff295bbe49c4bdb035905a72c9618d965e28abaf0ed2e7cca'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 224,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 224 Mined
+Hash value: 0000000072c77e0855bf6f983cf34f5979df6725c6f96fcc8d8d07eee38ffbb4
+Nonce: 3ef7184bcfcc197075d58506ea72db68af48b402aaa1025808f8dc8aea424be4
+Elapsed time: 1198189ms
+Average block production rate: 21.020859649122805s/block
+Transaction at height 225
+{
+  type: 'transaction',
+  height: 225,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671129900,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'dcc1bda18507e8056e3309fa77b8244e4cb85a6497cadb3a245d9a28920e22df',
+  previd: '0000000072c77e0855bf6f983cf34f5979df6725c6f96fcc8d8d07eee38ffbb4',
+  txids: [
+    'dc62cc32361ebfca69686299ad8a2dd325ef49eafb56e41d36132efc46d5e786'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 225,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 225 Mined
+Hash value: 0000000084ca61153bbc1230f6375e1fb61083c436bcc07cfaf8d4c38bd5e855
+Nonce: dcc1bda18507e8056e3309fa77b8244e4cb85a6497cadb3a245d9a28920e22df
+Elapsed time: 1211546ms
+Average block production rate: 20.888724137931035s/block
+Transaction at height 226
+{
+  type: 'transaction',
+  height: 226,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671130200,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'ff1f41c16a25194cdd397a1ef9f4dc37f8629a79219a667e13678a37d1e883ca',
+  previd: '0000000084ca61153bbc1230f6375e1fb61083c436bcc07cfaf8d4c38bd5e855',
+  txids: [
+    'fcf47597660e3a1b192771ffecb37fb52f11afb479ca6a1f8efe742ee374ba06'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 226,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 226 Mined
+Hash value: 000000003eef34b05706ef64f879d4e7de2aea83d37e7227394bf901611e3b33
+Nonce: ff1f41c16a25194cdd397a1ef9f4dc37f8629a79219a667e13678a37d1e883ca
+Elapsed time: 1218455ms
+Average block production rate: 20.65177966101695s/block
+Transaction at height 227
+{
+  type: 'transaction',
+  height: 227,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671130500,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'e0d746adedc914288886c6bb2682a7e36fe9736912a6f17dcc621ec89c9fa042',
+  previd: '000000003eef34b05706ef64f879d4e7de2aea83d37e7227394bf901611e3b33',
+  txids: [
+    '47495f48ec9b92dcc6a8d81fe69da4e375ce91347b315162563e4ac1faf73669'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 227,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 227 Mined
+Hash value: 000000008da7253abcdda57110fd9e2088739bf33a2f342fb208f08e8efbaa22
+Nonce: e0d746adedc914288886c6bb2682a7e36fe9736912a6f17dcc621ec89c9fa042
+Elapsed time: 1259913ms
+Average block production rate: 20.998549999999998s/block
+Transaction at height 228
+{
+  type: 'transaction',
+  height: 228,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671130800,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '142721138d04fe2f4de45cc3cb7baddd681de1cf59d23d523e8cec400b23dd85',
+  previd: '000000008da7253abcdda57110fd9e2088739bf33a2f342fb208f08e8efbaa22',
+  txids: [
+    '8fcabcd5e37be65379875066ad4cefcae7a5518ff6c06157d14883e221a22ecf'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 228,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 228 Mined
+Hash value: 000000008812a3d07e94b054b6584c0060d01a408aadeb4893134263d482450c
+Nonce: 142721138d04fe2f4de45cc3cb7baddd681de1cf59d23d523e8cec400b23dd85
+Elapsed time: 1285475ms
+Average block production rate: 21.073360655737705s/block
+Transaction at height 229
+{
+  type: 'transaction',
+  height: 229,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671131100,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'e7086543315e7f825a73baed6613c4baeda69cabd460d3f537f1474653c69174',
+  previd: '000000008812a3d07e94b054b6584c0060d01a408aadeb4893134263d482450c',
+  txids: [
+    '123564cbe0a5a87cff23910912651bc98e98dbd1dcbe6926af3de011b714ad6b'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 229,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 229 Mined
+Hash value: 0000000072cbac002b6cb8aa61bc18485bc4f7315f5ae5706c1f01f4dc81c7a6
+Nonce: e7086543315e7f825a73baed6613c4baeda69cabd460d3f537f1474653c69174
+Elapsed time: 1294026ms
+Average block production rate: 20.871387096774193s/block
+Transaction at height 230
+{
+  type: 'transaction',
+  height: 230,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671131400,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'd64ac383545557eedb7219c455cda3534565529f807c4e98fd78c0c7be80c1c9',
+  previd: '0000000072cbac002b6cb8aa61bc18485bc4f7315f5ae5706c1f01f4dc81c7a6',
+  txids: [
+    'b0363414c77da529831c40f8457602c5c37f482bb77fa272f04f1ee083c4131c'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 230,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 230 Mined
+Hash value: 000000000bcac190a44193eecfea605d06ebf000a026576dbd15316d01ccd564
+Nonce: d64ac383545557eedb7219c455cda3534565529f807c4e98fd78c0c7be80c1c9
+Elapsed time: 1339401ms
+Average block production rate: 21.26033333333333s/block
+Transaction at height 231
+{
+  type: 'transaction',
+  height: 231,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671131700,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '67b5726c51fe60aa600ad8eb7567c769b7645ae641fdd7267c93ee00df5644d2',
+  previd: '000000000bcac190a44193eecfea605d06ebf000a026576dbd15316d01ccd564',
+  txids: [
+    'fb62d54b260727c1dc1adad6058558b7193d9f8b7799beb6701c1f7649ea2cf5'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 231,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 231 Mined
+Hash value: 00000000764455bb1a901830121ed4631c0e541d634d3abf6f87e8ee342d7549
+Nonce: 67b5726c51fe60aa600ad8eb7567c769b7645ae641fdd7267c93ee00df5644d2
+Elapsed time: 1346095ms
+Average block production rate: 21.032734375s/block
+Transaction at height 232
+{
+  type: 'transaction',
+  height: 232,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671132000,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'dd16ca05da771d3f5e007a11eb67c7d93614e8954ee1c095a16632029ac3286c',
+  previd: '00000000764455bb1a901830121ed4631c0e541d634d3abf6f87e8ee342d7549',
+  txids: [
+    'a11d09550ecc1a5da7b0be943c21554fea6e5e572c202845f2b52a22362825d8'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 232,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 232 Mined
+Hash value: 000000007ee26d222c49a592e70ac4b7828e3da20c39be026a35797b38ea56a8
+Nonce: dd16ca05da771d3f5e007a11eb67c7d93614e8954ee1c095a16632029ac3286c
+Elapsed time: 1347975ms
+Average block production rate: 20.73807692307692s/block
+Transaction at height 233
+{
+  type: 'transaction',
+  height: 233,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671132300,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: 'cc53c5e3e2409393564a74873781e43d77a18350ad1784a3faea976e0c0db46d',
+  previd: '000000007ee26d222c49a592e70ac4b7828e3da20c39be026a35797b38ea56a8',
+  txids: [
+    '22330f48fb984e833fa8dbe2bf7803a5f614d548fc5d9309598d983601e05fb0'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 233,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 233 Mined
+Hash value: 000000001ac9911cacfa5a2ebce21b6a46d335419b6858562d2b5a53637ad83e
+Nonce: cc53c5e3e2409393564a74873781e43d77a18350ad1784a3faea976e0c0db46d
+Elapsed time: 1358604ms
+Average block production rate: 20.584909090909093s/block
+Transaction at height 234
+{
+  type: 'transaction',
+  height: 234,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671132600,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '06ad5d8853879073382eedba412e579c3b8a0275d0b3ff5fd652f691c8c38f37',
+  previd: '000000001ac9911cacfa5a2ebce21b6a46d335419b6858562d2b5a53637ad83e',
+  txids: [
+    '0229f5caaf7d32a97d2513ee52a57c7936e8092090d1849964b28fb02fc0ceb9'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 234,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 234 Mined
+Hash value: 0000000092f2be330f8b7a0f62776613e32b6ceabb4a56b985002c073acd0249
+Nonce: 06ad5d8853879073382eedba412e579c3b8a0275d0b3ff5fd652f691c8c38f37
+Elapsed time: 1369022ms
+Average block production rate: 20.43316417910448s/block
+Transaction at height 235
+{
+  type: 'transaction',
+  height: 235,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671132900,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '06ad5d8853879073382eedba412e579c3b8a0275d0b3ff5fd652f691c8c38f37',
+  previd: '0000000092f2be330f8b7a0f62776613e32b6ceabb4a56b985002c073acd0249',
+  txids: [
+    '4672794e2d461859e36b4189d6490197ff75c886c8c1edc57cb29653d408212d'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 235,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 235 Mined
+Hash value: 0000000092f2be330f8b7a0f62776613e32b6ceabb4a56b985002c073acd0249
+Nonce: 06ad5d8853879073382eedba412e579c3b8a0275d0b3ff5fd652f691c8c38f37
+Elapsed time: 1394842ms
+Average block production rate: 20.512382352941174s/block
+Transaction at height 236
+{
+  type: 'transaction',
+  height: 236,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671133200,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '62be409ec50c714e0d424e9cb6e9236f149894fbb0a0992ed6bcea6f466223c3',
+  previd: '0000000092f2be330f8b7a0f62776613e32b6ceabb4a56b985002c073acd0249',
+  txids: [
+    '243f3266355713cb8f537d036474ee5483534e59f1f7bf0b795dff6368a76a58'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 236,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 236 Mined
+Hash value: 0000000000b459a1abfbb6625e1114bb146e83298543e27020a319c1db430900
+Nonce: 62be409ec50c714e0d424e9cb6e9236f149894fbb0a0992ed6bcea6f466223c3
+Elapsed time: 1403898ms
+Average block production rate: 20.346347826086955s/block
+Transaction at height 237
+{
+  type: 'transaction',
+  height: 237,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+HASH FOUND
+{
+  T: '00000000abc00000000000000000000000000000000000000000000000000000',
+  created: 1671133500,
+  miner: 'Om Nom Nommm It is ALLL MINE',
+  nonce: '7d04d797e37efa72070595a3e62bd941129e48e8e8ac0d51e985a219133611e6',
+  previd: '0000000000b459a1abfbb6625e1114bb146e83298543e27020a319c1db430900',
+  txids: [
+    'ed2746b69e181814170ceec257ed3307046fb0a83287c3f734a7a15d72e84692'
+  ],
+  type: 'block'
+}
+{
+  type: 'transaction',
+  height: 237,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Block at Height 237 Mined
+Hash value: 0000000063d1e9e11b7a9bde8e48a816823b44490a506c49f3df6279c42b09f4
+Nonce: 7d04d797e37efa72070595a3e62bd941129e48e8e8ac0d51e985a219133611e6
+Elapsed time: 1433695ms
+Average block production rate: 20.481357142857142s/block
+Transaction at height 238
+{
+  type: 'transaction',
+  height: 238,
+  outputs: [
+    {
+      pubkey: '0513817d1170f4152666f367c5c1d822f38e954eb5c368e1938266d2de9969f4',
+      value: 50000000000
+    }
+  ]
+}
+Killed
