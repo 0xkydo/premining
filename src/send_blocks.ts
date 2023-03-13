@@ -77,7 +77,7 @@ async function setChainTip(num: number){
   })
 
 
-  for(var i = 750; i<num;i++){
+  for(var i = 1480; i<num;i++){
     const block = await db.get(`b_${i}`)
     sendObject(wrapObject(block))
     console.log(block)
@@ -106,9 +106,9 @@ async function setChainTip(num: number){
   // Init
   init()
 
-  // // // // Get object
-  getObject('00000000197d0f65502d8bbd732d37ca01f28571d1b5568fa5d261bb7d9aaf5b')
-  getObject('957e95ece3a65ff24dc6014d407bb5aeeefa5f6d07e5eba1349ddb4b39afdd2b')
+  // // // // // Get object
+  // getObject('00000000197d0f65502d8bbd732d37ca01f28571d1b5568fa5d261bb7d9aaf5b')
+  // getObject('957e95ece3a65ff24dc6014d407bb5aeeefa5f6d07e5eba1349ddb4b39afdd2b')
 
  /*
 
@@ -127,7 +127,7 @@ async function setChainTip(num: number){
 
 
 
-  // await setChainTip(1028)
+  await setChainTip(1538)
 
 
 })();
